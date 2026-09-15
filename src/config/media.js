@@ -8,6 +8,9 @@
  * Zolang een waarde null is, toont de site een placeholder (layout blijft hetzelfde).
  */
 
+import mimiVideoCover from "../assets/mimi-video-cover.jpeg";
+import mimiIntroVideo from "../assets/mimi-intro.mp4";
+
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
 
@@ -23,8 +26,8 @@ export const clubsSecondaryImage = null;
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
 export const mimiCoverImage = null;
 /** Coverfoto op de video wanneer die niet speelt */
-export const mimiVideoPoster = null;
-export const mimiVideo = null;
+export const mimiVideoPoster = mimiVideoCover;
+export const mimiVideo = mimiIntroVideo;
 
 /** @deprecated gebruik mimiCoverImage / mimiVideoPoster */
 export const mimiHeroImage = null;

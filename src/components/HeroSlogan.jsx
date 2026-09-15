@@ -9,7 +9,8 @@ export default function HeroSlogan({ hideBrand = false, singleLine = false }) {
           <span className="hero-slogan__part">daar waar </span>
           <span className="hero-slogan__highlight hero-slogan__highlight--gold">Padel</span>
           <span className="hero-slogan__part"> en </span>
-          <span className="hero-slogan__highlight hero-slogan__highlight--gold">la dolce vita </span>
+          <span className="hero-slogan__highlight hero-slogan__highlight--gold">la dolce vita</span>
+          {" "}
           <span className="hero-slogan__part">samenkomen.</span>
         </p>
       </div>

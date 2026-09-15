@@ -364,12 +364,23 @@ body {
 .hero-slogan--single .hero-slogan__highlight--gold {
   font-style: normal;
   font-weight: 700;
-  background: linear-gradient(120deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold) 100%);
-  background-size: 200% auto;
+  background: linear-gradient(
+    90deg,
+    #9a7b18 0%,
+    var(--gold) 18%,
+    var(--gold-light) 38%,
+    #f3e5a8 50%,
+    var(--gold-light) 62%,
+    var(--gold) 82%,
+    #9a7b18 100%
+  );
+  background-size: 300% 100%;
+  background-repeat: repeat;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: slogan-shimmer 5s ease-in-out infinite;
+  -webkit-text-fill-color: transparent;
+  animation: slogan-shimmer 4.5s ease-in-out infinite;
 }
 
 .hero-slogan__brand {
@@ -474,8 +485,12 @@ body {
 }
 
 @keyframes slogan-shimmer {
-  0%, 100% { background-position: 0% center; }
-  50% { background-position: 100% center; }
+  0%, 100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
 }
 
 @keyframes slogan-rule-grow {
@@ -548,6 +563,13 @@ body {
   }
 
   .hero-slogan__highlight {
+    color: var(--gold);
+  }
+
+  .hero-slogan--single .hero-slogan__highlight--gold {
+    animation: none;
+    background: none;
+    -webkit-text-fill-color: var(--gold);
     color: var(--gold);
   }
 }
