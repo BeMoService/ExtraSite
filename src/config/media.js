@@ -20,6 +20,13 @@ export const trainingSecondaryImage = null;
 export const clubsHeroImage = null;
 export const clubsSecondaryImage = null;
 
+/** Wie is Mimi — omslagfoto bovenaan de pagina */
+export const mimiCoverImage = null;
+/** Coverfoto op de video wanneer die niet speelt */
+export const mimiVideoPoster = null;
+export const mimiVideo = null;
+
+/** @deprecated gebruik mimiCoverImage / mimiVideoPoster */
 export const mimiHeroImage = null;
 export const mimiSecondaryImage = null;
 
