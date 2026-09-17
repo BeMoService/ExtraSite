@@ -1,11 +1,44 @@
-import { useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 const SWIPE_THRESHOLD_PX = 48;
+const AUTO_ADVANCE_MS = 5000;
+const PAUSE_AFTER_INTERACTION_MS = 10000;
 
 export default function PhotoCarousel({ images = [], label = "Afbeelding volgt", ariaLabel = "Foto's" }) {
   const [index, setIndex] = useState(0);
+  const [hoverPaused, setHoverPaused] = useState(false);
   const touchStartX = useRef(null);
+  const pauseAutoplayUntil = useRef(0);
   const count = images.length;
+
+  const bumpPause = () => {
+    pauseAutoplayUntil.current = Date.now() + PAUSE_AFTER_INTERACTION_MS;
+  };
+
+  const go = useCallback(
+    (delta) => {
+      if (count === 0) return;
+      bumpPause();
+      setIndex((i) => (i + delta + count) % count);
+    },
+    [count]
+  );
+
+  useEffect(() => {
+    setIndex(0);
+  }, [images]);
+
+  useEffect(() => {
+    if (count <= 1) return undefined;
+
+    const id = window.setInterval(() => {
+      if (document.hidden || hoverPaused) return;
+      if (Date.now() < pauseAutoplayUntil.current) return;
+      setIndex((i) => (i + 1) % count);
+    }, AUTO_ADVANCE_MS);
+
+    return () => window.clearInterval(id);
+  }, [count, hoverPaused]);
 
   if (count === 0) {
     return (
@@ -16,10 +49,6 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
       </div>
     );
   }
-
-  const go = (delta) => {
-    setIndex((i) => (i + delta + count) % count);
-  };
 
   const onTouchStart = (e) => {
     touchStartX.current = e.touches[0]?.clientX ?? null;
@@ -36,8 +65,19 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
     go(delta < 0 ? 1 : -1);
   };
 
+  const goTo = (i) => {
+    bumpPause();
+    setIndex(i);
+  };
+
   return (
-    <div className="photo-carousel" aria-roledescription="carousel" aria-label={ariaLabel}>
+    <div
+      className="photo-carousel"
+      aria-roledescription="carousel"
+      aria-label={ariaLabel}
+      onMouseEnter={() => setHoverPaused(true)}
+      onMouseLeave={() => setHoverPaused(false)}
+    >
       <div className="ratio-4x5 photo-carousel__frame">
         <div
           className="photo-carousel__track"
@@ -80,7 +120,7 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
               aria-selected={i === index}
               aria-label={`Foto ${i + 1} van ${count}`}
               className={i === index ? "is-active" : undefined}
-              onClick={() => setIndex(i)}
+              onClick={() => goTo(i)}
             />
           ))}
         </div>

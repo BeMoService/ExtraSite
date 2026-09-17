@@ -1092,6 +1092,7 @@ body {
 .photo-carousel__track {
   display: flex;
   height: 100%;
+  z-index: 1;
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   touch-action: pan-y;
 }
@@ -1119,12 +1120,13 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
+  z-index: 3;
   border: none;
   background: transparent;
   cursor: pointer;
 }
-.carousel-hit--prev { left: 0; width: 40%; }
-.carousel-hit--next { right: 0; width: 60%; }
+.carousel-hit--prev { left: 0; width: 50%; }
+.carousel-hit--next { right: 0; width: 50%; }
 
 .carousel-dots {
   display: flex;
