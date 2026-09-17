@@ -1,12 +1,11 @@
-import MediaFrame from "../components/MediaFrame.jsx";
-import { SecondaryMedia } from "../components/PageSideContent.jsx";
-import { clubsHeroImage, clubsSecondaryImage } from "../config/media.js";
+import PhotoCarousel from "../components/PhotoCarousel.jsx";
+import { todaClubPhotos, todaTrainerPhotos } from "../config/media.js";
 
 export default function Clubs() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
-        <MediaFrame src={clubsHeroImage} alt="" label="Club — afbeelding volgt" />
+        <PhotoCarousel images={todaClubPhotos} ariaLabel="TODA clubfoto's" />
       </div>
 
       <div className="col-text">
@@ -29,7 +28,10 @@ export default function Clubs() {
           </p>
         </div>
 
-        <SecondaryMedia src={clubsSecondaryImage} label="Media volgt" />
+        <div className="secondary-media">
+          <h2 className="page-subtitle">Trainers</h2>
+          <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" />
+        </div>
       </div>
     </section>
   );

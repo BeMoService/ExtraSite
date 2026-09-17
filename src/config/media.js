@@ -11,6 +11,13 @@
 import mimiVideoCover from "../assets/mimi-video-cover.jpeg";
 import mimiIntroVideo from "../assets/mimi-intro.mp4";
 
+import todaClub01 from "../assets/clubs/toda-club-01.jpeg";
+import todaClub02 from "../assets/clubs/toda-club-02.jpeg";
+import todaClub03 from "../assets/clubs/toda-club-03.jpeg";
+import todaClub04 from "../assets/clubs/toda-club-04.jpeg";
+import todaTrainer01 from "../assets/clubs/toda-trainer-01.jpeg";
+import todaTrainer02 from "../assets/clubs/toda-trainer-02.jpeg";
+
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
 
@@ -22,6 +29,11 @@ export const trainingSecondaryImage = null;
 
 export const clubsHeroImage = null;
 export const clubsSecondaryImage = null;
+
+/** TODA — clubfoto's (carousel links) */
+export const todaClubPhotos = [todaClub01, todaClub02, todaClub03, todaClub04];
+/** TODA — trainers (carousel onder tekst) */
+export const todaTrainerPhotos = [todaTrainer01, todaTrainer02];
 
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
 export const mimiCoverImage = null;
