@@ -36,6 +36,13 @@ export default function WatWeBieden() {
             wijnproeverij.
           </p>
 
+          <p>
+            Ontdek ons ijzersterke en energieke trainingsprogramma! Met veel passie en kennis hebben we een
+            complete training ontwikkeld voor ieder niveau. Wij focussen ons volledig op jouw persoonlijke
+            verbeterpunten. Samen gaan we doelgericht en vooral met veel plezier aan de slag om jou een nóg
+            betere padeller te maken.
+          </p>
+
           <ul className="feature-list feature-list--plain">
             <li>Minimaal 1,5 training per dag.</li>
             <li>

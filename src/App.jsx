@@ -2,7 +2,6 @@
 import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import WatWeBieden from "./pages/WatWeBieden.jsx";
 import Reizen from "./pages/Reizen.jsx";
-import Trainingen from "./pages/Trainingen.jsx";
 import TodaSinalunga from "./pages/TodaSinalunga.jsx";
 import PadelArenaPerugia from "./pages/PadelArenaPerugia.jsx";
 import WieIsMimi from "./pages/WieIsMimi.jsx";
@@ -14,7 +13,6 @@ import CornerLogo from "./components/CornerLogo.jsx";
 const PAGE_BY_PATH = {
   "/": "aanbod",
   "/reizen": "reizen",
-  "/trainingen": "trainingen",
   "/clubs/toda-sinalunga": "clubs",
   "/clubs/padel-arena-perugia": "clubs",
   "/mimi": "mimi",
@@ -39,7 +37,6 @@ export default function App() {
   const links = [
     { to: "#/", label: "Wat we bieden" },
     { to: "#/reizen", label: "Onze reizen" },
-    { to: "#/trainingen", label: "De trainingen" },
     { to: "#/clubs/toda-sinalunga", label: "TODA - Sinalunga" },
     { to: "#/clubs/padel-arena-perugia", label: "Padel Arena Fastweb - Perugia" },
     { to: "#/mimi", label: "Wie is Mimi" },
@@ -96,7 +93,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<WatWeBieden />} />
           <Route path="/reizen" element={<Reizen />} />
-          <Route path="/trainingen" element={<Trainingen />} />
+          <Route path="/trainingen" element={<Navigate to="/" replace />} />
           <Route path="/clubs" element={<Navigate to="/clubs/toda-sinalunga" replace />} />
           <Route path="/clubs/toda-sinalunga" element={<TodaSinalunga />} />
           <Route path="/clubs/padel-arena-perugia" element={<PadelArenaPerugia />} />
