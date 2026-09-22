@@ -19,4 +19,5 @@ jobs:
           channelId: mimi-review
           projectId: bemoservicedb
           target: mimipadel
-          expires: 30d
+          # Vaste preview-URL: https://mimipadel--mimi-review-rx87i44q.web.app (elke push vernieuwt dezelfde link)
+          expires: 90d
