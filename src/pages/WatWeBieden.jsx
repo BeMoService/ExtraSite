@@ -45,20 +45,31 @@ export default function WatWeBieden() {
           </p>
 
           <ul className="feature-list feature-list--plain">
-            <li>Minimaal 1,5 training per dag.</li>
             <li>
-              Verblijf in een hotel inclusief ontbijt, pal aan het prachtige Lago di Trasimeno, mét zwembad.
+              Minimaal 1,5 training per dag en daarna tijd voor vrij spel van Maestro FITP trainers.
             </li>
-            <li>Dagelijks een uitgebreid Italiaans lunch pakket.</li>
+            <li>Verblijf in een luxe sterrenhotel inclusief ontbijt.</li>
+            <li>Lunch — uithalen.</li>
             <li>Spannende wedstrijden en toernooien.</li>
-            <li>Wijnproeverij bij de lokale wijnboer met mogelijkheid tot shipping.</li>
+            <li>Jouw persoonlijke Mimipadel shirt (met jouw eigen naam).</li>
+            <li>Welkomstdrankje inclusief pakketje.</li>
           </ul>
 
           <h3 className="page-subtitle">Persoonlijke touch?</h3>
           <ul className="feature-list feature-list--plain">
-            <li>Op maat gemaakte excursie? Jij roept, wij draaien.</li>
+            <li>
+              Op maat gemaakte excursie? Jij roept, wij draaien. Denk eens aan:
+              <ul className="feature-list feature-list--nested">
+                <li>Wijnproeverij bij de lokale wijnboer met mogelijkheid tot shipping.</li>
+                <li>Een heuse truffeljacht in de bergen van Umbrië.</li>
+                <li>
+                  Kite/windsurfen op het Trasimenomeer. Liever rustiger aan? Ga dan eens suppend het meer over.
+                </li>
+                <li>Een écht Italiaanse kookworkshop.</li>
+              </ul>
+            </li>
             <li>Verblijven in een villa? Regelen wij voor je.</li>
-            <li>Mee op reis zonder te paddelen? Vraag naar de korting.</li>
+            <li>Mee op reis zonder te padellen? Vraag naar de korting.</li>
             <li>Hulp bij vliegtickets? Wij zijn ondertussen experts.</li>
             <li>
               Een eigen groep, met je kids of een heel andere data? Wij zijn bereikbaar via whatsapp.

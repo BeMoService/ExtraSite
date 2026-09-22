@@ -758,6 +758,24 @@ body {
   font-weight: 700;
 }
 
+.feature-list--nested {
+  margin: 10px 0 4px;
+  gap: 8px;
+}
+
+.feature-list--nested li {
+  padding-left: 22px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.feature-list--nested li::before {
+  content: "–";
+  color: var(--olive);
+  font-weight: 600;
+  top: 10px;
+}
+
 .trip-card {
   padding: 0;
   background: transparent;
