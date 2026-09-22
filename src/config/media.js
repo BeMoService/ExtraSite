@@ -18,6 +18,7 @@ import todaClub04 from "../assets/clubs/toda-club-04.jpeg";
 import todaTrainer01 from "../assets/clubs/toda-trainer-01.jpeg";
 import todaTrainer02 from "../assets/clubs/toda-trainer-02.jpeg";
 import todaTrainer03 from "../assets/clubs/toda-trainer-03.jpeg";
+import perugiaClub01 from "../assets/clubs/perugia/club-01.jpeg";
 
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
@@ -36,8 +37,8 @@ export const todaClubPhotos = [todaClub01, todaClub02, todaClub03, todaClub04];
 /** TODA — trainers (carousel onder tekst) */
 export const todaTrainerPhotos = [todaTrainer01, todaTrainer02, todaTrainer03];
 
-/** Padel Arena Fastweb Perugia — foto's (later toevoegen) */
-export const perugiaClubPhotos = [];
+/** Padel Arena Fastweb Perugia — clubfoto's (carousel links) */
+export const perugiaClubPhotos = [perugiaClub01];
 export const perugiaTrainerPhotos = [];
 
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
