@@ -28,19 +28,20 @@ export default function WatWeBieden() {
         <h2 className="page-title">Wat we bieden</h2>
 
         <div className="page-body">
+          <h3 className="page-subtitle">Ons trainingsprogramma</h3>
+          <p>
+            Ontdek ons ijzersterke en energieke trainingsprogramma! Met veel passie en kennis hebben we een
+            complete training ontwikkeld voor ieder niveau. Wij focussen ons volledig op jouw persoonlijke
+            verbeterpunten. Samen gaan we doelgericht en vooral met veel plezier aan de slag om jou een nóg
+            betere padeller te maken.
+          </p>
+
           <p>
             Een compleet verzorgde reis, zo simpel als het klinkt, zo uitgebreid als het voelt. Bij mimi
             padel staat een persoonlijke touch bovenaan, wij zullen er alles aan doen zodat jij een
             onvergetelijke reis krijgt. Jouw ervaring staat centraal, wij bewegen wel mee. Of dit nou gaat om
             een extra padel les, die ene unieke leuke locale tip of juist het vervoer van en naar een
             wijnproeverij.
-          </p>
-
-          <p>
-            Ontdek ons ijzersterke en energieke trainingsprogramma! Met veel passie en kennis hebben we een
-            complete training ontwikkeld voor ieder niveau. Wij focussen ons volledig op jouw persoonlijke
-            verbeterpunten. Samen gaan we doelgericht en vooral met veel plezier aan de slag om jou een nóg
-            betere padeller te maken.
           </p>
 
           <ul className="feature-list feature-list--plain">
