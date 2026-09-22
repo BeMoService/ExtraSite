@@ -9,7 +9,7 @@ export default function TodaSinalunga() {
       </div>
 
       <div className="col-text">
-        <h1 className="page-title">Toda - Sinalunga</h1>
+        <h1 className="page-title">TODA - Sinalunga</h1>
 
         <div className="page-body">
           <p>
