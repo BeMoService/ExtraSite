@@ -1,9 +1,10 @@
 ﻿import { useEffect, useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Navigate } from "react-router-dom";
 import WatWeBieden from "./pages/WatWeBieden.jsx";
 import Reizen from "./pages/Reizen.jsx";
 import Trainingen from "./pages/Trainingen.jsx";
-import Clubs from "./pages/Clubs.jsx";
+import TodaSinalunga from "./pages/TodaSinalunga.jsx";
+import PadelArenaPerugia from "./pages/PadelArenaPerugia.jsx";
 import WieIsMimi from "./pages/WieIsMimi.jsx";
 import Contact from "./pages/Contact.jsx";
 import AlgemeneVoorwaarden from "./pages/AlgemeneVoorwaarden.jsx";
@@ -14,7 +15,8 @@ const PAGE_BY_PATH = {
   "/": "aanbod",
   "/reizen": "reizen",
   "/trainingen": "trainingen",
-  "/clubs": "clubs",
+  "/clubs/toda-sinalunga": "clubs",
+  "/clubs/padel-arena-perugia": "clubs",
   "/mimi": "mimi",
   "/contact": "contact",
   "/voorwaarden": "voorwaarden",
@@ -38,7 +40,8 @@ export default function App() {
     { to: "#/", label: "Wat we bieden" },
     { to: "#/reizen", label: "Onze reizen" },
     { to: "#/trainingen", label: "De trainingen" },
-    { to: "#/clubs", label: "Onze clubs" },
+    { to: "#/clubs/toda-sinalunga", label: "Toda - Sinalunga" },
+    { to: "#/clubs/padel-arena-perugia", label: "Padel Arena Fastweb - Perugia" },
     { to: "#/mimi", label: "Wie is Mimi" },
     { to: "#/contact", label: "Contactgegevens" },
     { to: "#/voorwaarden", label: "Algemene voorwaarden" },
@@ -94,7 +97,9 @@ export default function App() {
           <Route path="/" element={<WatWeBieden />} />
           <Route path="/reizen" element={<Reizen />} />
           <Route path="/trainingen" element={<Trainingen />} />
-          <Route path="/clubs" element={<Clubs />} />
+          <Route path="/clubs" element={<Navigate to="/clubs/toda-sinalunga" replace />} />
+          <Route path="/clubs/toda-sinalunga" element={<TodaSinalunga />} />
+          <Route path="/clubs/padel-arena-perugia" element={<PadelArenaPerugia />} />
           <Route path="/mimi" element={<WieIsMimi />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/voorwaarden" element={<AlgemeneVoorwaarden />} />

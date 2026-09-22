@@ -1,7 +1,7 @@
 import PhotoCarousel from "../components/PhotoCarousel.jsx";
 import { todaClubPhotos, todaTrainerPhotos } from "../config/media.js";
 
-export default function Clubs() {
+export default function TodaSinalunga() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
@@ -9,7 +9,7 @@ export default function Clubs() {
       </div>
 
       <div className="col-text">
-        <h1 className="page-title">Onze clubs</h1>
+        <h1 className="page-title">Toda - Sinalunga</h1>
 
         <div className="page-body">
           <p>

@@ -36,6 +36,10 @@ export const todaClubPhotos = [todaClub01, todaClub02, todaClub03, todaClub04];
 /** TODA — trainers (carousel onder tekst) */
 export const todaTrainerPhotos = [todaTrainer01, todaTrainer02, todaTrainer03];
 
+/** Padel Arena Fastweb Perugia — foto's (later toevoegen) */
+export const perugiaClubPhotos = [];
+export const perugiaTrainerPhotos = [];
+
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
 export const mimiCoverImage = null;
 /** Coverfoto op de video wanneer die niet speelt */
