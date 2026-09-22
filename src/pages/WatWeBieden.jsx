@@ -25,7 +25,7 @@ export default function WatWeBieden() {
       </div>
 
       <div className="home-content">
-        <h2 className="page-title">Wat we bieden</h2>
+        <h2 className="page-title">Home</h2>
 
         <div className="page-body">
           <h3 className="page-subtitle">Ons trainingsprogramma</h3>

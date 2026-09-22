@@ -21,17 +21,18 @@ export default function PadelArenaPerugia() {
             <li>14 padelbanen</li>
             <li>3 beachvolleybalvelden</li>
             <li>Ruime faciliteiten</li>
-            <li>6 FITP trainers</li>
+            <li>7 Maestro FITP trainers</li>
             <li>Gym</li>
             <li>Bar &amp; buitenbar.</li>
           </ul>
           <p>
-            Maestro trainers die écht met je meekijken, die tijdens het inspelen al doorhebben waar jouw kracht en
+            Maestro trainers die écht met je meekijken, die tijdens het inspelen al doorhebben waar jouw krachten en
             valkuil liggen. Vanuit daar starten jouw lessen. Uiteraard is er na elke les tijd gereserveerd voor vrij
-            spel om jouw geleerde technieken toe te passen. Bij mimi padel speel en oefen je altijd met
-            gelijkwaardige spelers. Wij staan voor uitdagende, op maat gemaakte sessies. Je krijgt les van
-            toptrainers met de allerhoogste FITP-kwalificatie van de Italiaanse tennis- en padelfederatie. Zo haal je
-            gegarandeerd het beste uit jezelf en word je een nóg betere padeller!
+            spel om jouw geleerde technieken toe te passen.
+          </p>
+          <p>
+            Je krijgt les van toptrainers met de allerhoogste FITP-kwalificatie van de Italiaanse tennis- en
+            padelfederatie. Zo haal je gegarandeerd het beste uit jezelf en word je een nóg betere padeller!
           </p>
           <p>
             Om dit niveau te bereiken moesten onze trainers een zwaar leer- en examineringstraject doorlopen via het
