@@ -1218,26 +1218,6 @@ body {
   box-shadow: 0 8px 28px rgba(28, 36, 32, 0.08);
 }
 
-.whatsapp-qr__hint {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: var(--muted);
-  max-width: 260px;
-}
-
-.whatsapp-qr__link {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--gold);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.whatsapp-qr__link:hover {
-  color: var(--olive-dark);
-}
-
 /* Carousel */
 .carousel-hit {
   position: absolute;
