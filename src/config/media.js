@@ -11,6 +11,7 @@
 import mimiVideoCover from "../assets/mimi-video-cover.jpeg";
 import mimiIntroVideo from "../assets/mimi-intro.mp4";
 import homeHeroVideo from "../assets/home-hero-video.mp4";
+import homeTopKwartet from "../assets/home-top-kwartet.jpeg";
 
 import todaClub01 from "../assets/clubs/toda-club-01.jpeg";
 import todaClub02 from "../assets/clubs/toda-club-02.jpeg";
@@ -23,6 +24,8 @@ import perugiaClub01 from "../assets/clubs/perugia/club-01.jpeg";
 
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
+/** Foto onderaan home (boven tekst + video) */
+export const homeBottomPhoto = homeTopKwartet;
 export const homeSecondaryVideo = homeHeroVideo;
 
 export const tripHeroImage = null;
