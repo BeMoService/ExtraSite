@@ -1236,6 +1236,74 @@ body {
   margin-top: 24px;
 }
 
+.reizen-page__grid {
+  display: grid;
+  gap: 24px;
+  width: 100%;
+}
+
+.reizen-page__title {
+  margin-bottom: 0;
+}
+
+.reizen-page__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.reizen-page__photo,
+.reizen-page__qr {
+  min-width: 0;
+}
+
+.reizen-page__qr .whatsapp-qr {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.reizen-page__video .secondary-media {
+  margin-top: 0;
+}
+
+@media (min-width: 900px) {
+  .reizen-page__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 28px;
+    row-gap: 20px;
+    grid-template-areas:
+      "title title"
+      "intro intro"
+      "photo qr"
+      "video video";
+  }
+
+  .reizen-page__title {
+    grid-area: title;
+  }
+
+  .reizen-page__intro {
+    grid-area: intro;
+  }
+
+  .reizen-page__photo {
+    grid-area: photo;
+    align-self: start;
+  }
+
+  .reizen-page__qr {
+    grid-area: qr;
+    align-self: start;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .reizen-page__video {
+    grid-area: video;
+  }
+}
+
 .whatsapp-qr__title {
   margin: 0;
   font-family: var(--font-display);

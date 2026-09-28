@@ -5,15 +5,11 @@ import { tripHeroImage, tripVideo } from "../config/media.js";
 
 export default function Reizen() {
   return (
-    <section className="grid grid-2 section">
-      <div className="col-image">
-        <MediaFrame src={tripHeroImage} alt="" label="Reis-afbeelding volgt" />
-      </div>
+    <section className="section reizen-page">
+      <div className="reizen-page__grid">
+        <h1 className="page-title reizen-page__title">Onze reizen</h1>
 
-      <div className="col-text">
-        <h1 className="page-title">Onze reizen</h1>
-
-        <div className="page-body">
+        <div className="page-body reizen-page__intro">
           <p>
             Mimipadel staat voor op maat gemaakte reizen. Wil jij graag genieten van &ldquo;la dolce vita&rdquo; in
             het heuvelachtige Toscane, of juist het bruisende Perugia ontdekken in Umbrië? Wij bieden een vaste
@@ -28,9 +24,17 @@ export default function Reizen() {
           </p>
         </div>
 
-        <WhatsAppQr className="btn--spaced" />
+        <div className="reizen-page__photo">
+          <MediaFrame src={tripHeroImage} alt="" label="Reis-afbeelding volgt" aspect="4x5" />
+        </div>
 
-        <SecondaryMedia src={tripVideo} label="Video volgt" type="video" />
+        <div className="reizen-page__qr">
+          <WhatsAppQr />
+        </div>
+
+        <div className="reizen-page__video">
+          <SecondaryMedia src={tripVideo} label="Video volgt" type="video" />
+        </div>
       </div>
     </section>
   );
