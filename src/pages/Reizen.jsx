@@ -1,4 +1,3 @@
-import MediaFrame from "../components/MediaFrame.jsx";
 import WhatsAppQr from "../components/WhatsAppQr.jsx";
 import { SecondaryMedia } from "../components/PageSideContent.jsx";
 import { tripHeroImage, tripSecondaryImage, tripVideo } from "../config/media.js";
@@ -8,7 +7,7 @@ export default function Reizen() {
     <section className="section reizen-page">
       <div className="reizen-page__hero grid grid-2">
         <div className="reizen-page__photo-1">
-          <MediaFrame src={tripHeroImage} alt="" label="Reis-afbeelding volgt" aspect="4x5" />
+          <img className="reizen-page__flyer" src={tripHeroImage} alt="" loading="lazy" />
         </div>
 
         <div className="reizen-page__hero-side">
@@ -30,7 +29,7 @@ export default function Reizen() {
           </div>
 
           <div className="reizen-page__qr">
-            <WhatsAppQr />
+            <WhatsAppQr size={172} />
           </div>
         </div>
       </div>
@@ -56,7 +55,7 @@ export default function Reizen() {
         </div>
 
         <div className="reizen-page__photo-2">
-          <MediaFrame src={tripSecondaryImage} alt="" label="Reis-afbeelding volgt" aspect="4x5" />
+          <img className="reizen-page__flyer" src={tripSecondaryImage} alt="" loading="lazy" />
         </div>
       </div>
 
