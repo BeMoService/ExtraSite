@@ -46,10 +46,6 @@ export default function TodaSinalunga() {
               gegarandeerd het beste uit jou om een nóg betere padeller te worden.
             </p>
             <p>
-              Je krijgt les van toptrainers met de allerhoogste FITP-kwalificatie van de Italiaanse tennis- en
-              padelfederatie. Zo haal je gegarandeerd het beste uit jezelf en word je een nóg betere padeller!
-            </p>
-            <p>
               Om dit niveau te bereiken moesten onze trainers een zwaar leer- en examineringstraject doorlopen via
               het (ISF) Istituto Superiore die Formazione en praktijkervaring hebben in de tweede categorie
               spelersniveau. Dit zijn de spelers op het één na hoogste niveau, zij spelen mee in het nationale team
