@@ -7,7 +7,7 @@ export default function Reizen() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
-        <MediaFrame src={tripHeroImage} alt="" label="Reis-afbeelding volgt" />
+        <MediaFrame src={tripHeroImage} alt="" label="Reis-afbeelding volgt" aspect="3x2" />
       </div>
 
       <div className="col-text">

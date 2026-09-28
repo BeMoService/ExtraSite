@@ -1,6 +1,14 @@
-export default function MediaFrame({ src, alt = "", label = "Afbeelding volgt" }) {
+const RATIO_CLASS = {
+  "4x5": "ratio-4x5",
+  "3x2": "ratio-3x2",
+  "16x9": "ratio-16x9",
+};
+
+export default function MediaFrame({ src, alt = "", label = "Afbeelding volgt", aspect = "4x5" }) {
+  const ratioClass = RATIO_CLASS[aspect] ?? RATIO_CLASS["4x5"];
+
   return (
-    <div className="ratio-4x5">
+    <div className={ratioClass}>
       {src ? (
         <img
           src={src}

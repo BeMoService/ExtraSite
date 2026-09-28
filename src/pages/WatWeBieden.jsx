@@ -1,6 +1,6 @@
 import { SecondaryMedia } from "../components/PageSideContent.jsx";
 import HeroSlogan from "../components/HeroSlogan.jsx";
-import { homeSecondaryImage } from "../config/media.js";
+import { homeSecondaryVideo } from "../config/media.js";
 import logoImage from "../assets/mimipadel-logo.png";
 
 export default function WatWeBieden() {
@@ -82,7 +82,7 @@ export default function WatWeBieden() {
           Bekijk onze reizen
         </a>
 
-        <SecondaryMedia src={homeSecondaryImage} label="Media volgt" />
+        <SecondaryMedia src={homeSecondaryVideo} type="video" aspect="16x9" label="Video volgt" />
       </div>
     </section>
   );
