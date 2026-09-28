@@ -13,6 +13,7 @@ import mimiIntroVideo from "../assets/mimi-intro.mp4";
 import homeHeroVideo from "../assets/home-hero-video.mp4";
 import homeTopKwartet from "../assets/home-top-kwartet.jpeg";
 import reizenPrijs01 from "../assets/reizen-prijs-01.jpeg";
+import reizenPrijs02 from "../assets/reizen-prijs-02.jpeg";
 
 import todaClub01 from "../assets/clubs/toda-club-01.jpeg";
 import todaClub02 from "../assets/clubs/toda-club-02.jpeg";
@@ -30,6 +31,7 @@ export const homeBottomPhoto = homeTopKwartet;
 export const homeSecondaryVideo = homeHeroVideo;
 
 export const tripHeroImage = reizenPrijs01;
+export const tripSecondaryImage = reizenPrijs02;
 export const tripVideo = null;
 
 export const trainingHeroImage = null;

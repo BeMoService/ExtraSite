@@ -1236,72 +1236,56 @@ body {
   margin-top: 24px;
 }
 
-.reizen-page__grid {
-  display: grid;
-  gap: 24px;
-  width: 100%;
+.reizen-page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.reizen-page__title {
-  margin-bottom: 0;
-}
-
-.reizen-page__intro {
+.reizen-page__hero-side {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
+  height: 100%;
 }
 
-.reizen-page__photo,
+.reizen-page__hero-copy {
+  flex: 1 1 auto;
+}
+
 .reizen-page__qr {
-  min-width: 0;
+  margin-top: auto;
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
 }
 
 .reizen-page__qr .whatsapp-qr {
   max-width: 100%;
-  margin: 0 auto;
-}
-
-.reizen-page__video .secondary-media {
-  margin-top: 0;
+  margin: 0;
 }
 
 @media (min-width: 900px) {
-  .reizen-page__grid {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    column-gap: 28px;
-    row-gap: 20px;
-    grid-template-areas:
-      "title title"
-      "intro intro"
-      "photo qr"
-      "video video";
+  .reizen-page__hero.grid-2 {
+    align-items: stretch;
   }
 
-  .reizen-page__title {
-    grid-area: title;
+  .reizen-page__hero-side {
+    min-height: 100%;
   }
+}
 
-  .reizen-page__intro {
-    grid-area: intro;
-  }
+.reizen-page__regions .page-subtitle {
+  margin-top: 4px;
+}
 
-  .reizen-page__photo {
-    grid-area: photo;
-    align-self: start;
-  }
+.reizen-page__regions .page-subtitle:first-child {
+  margin-top: 0;
+}
 
-  .reizen-page__qr {
-    grid-area: qr;
-    align-self: start;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-  }
-
-  .reizen-page__video {
-    grid-area: video;
-  }
+.reizen-page > .secondary-media {
+  margin-top: 8px;
 }
 
 .whatsapp-qr__title {
