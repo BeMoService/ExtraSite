@@ -1395,6 +1395,10 @@ body {
   margin-top: 0;
 }
 
+.page-club__tenuta-row .photo-carousel__frame.ratio-3x2::before {
+  padding-top: 72%;
+}
+
 .page-club__tagline {
   margin-top: 1.25rem;
   font-family: var(--font-display);
@@ -1437,6 +1441,18 @@ body {
     flex: 1 1 auto;
     min-height: 200px;
     height: 100%;
+  }
+
+  .page-club__tenuta-row.grid-2 {
+    align-items: stretch;
+  }
+
+  .page-club__tenuta-row .page-club__club-photo {
+    align-self: stretch;
+  }
+
+  .page-club__tenuta-row .photo-carousel--fill .photo-carousel__frame {
+    min-height: 280px;
   }
 
   .page-club__trainers-row.grid-2 {
