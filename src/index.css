@@ -243,6 +243,12 @@ body {
   min-width: 0;
 }
 
+@media (min-width: 900px) {
+  .page-mimi .col-image {
+    margin-top: 3.65rem;
+  }
+}
+
 .lead-text {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -869,9 +875,8 @@ body {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: clamp(1.4rem, 4.2vw, 1.75rem);
-  letter-spacing: 0.14em;
+  letter-spacing: 0.04em;
   color: var(--olive-dark);
-  text-transform: uppercase;
 }
 
 .page-omslag {

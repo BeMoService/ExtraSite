@@ -49,8 +49,8 @@ export default function App() {
       <BackgroundShapes />
       <header className="site-header">
         <div className="header-inner container">
-          <div className="brand-slot" aria-label="mimi padel">
-            <span className="brand-name">MIMIPADEL</span>
+          <div className="brand-slot" aria-label="Mimipadel">
+            <span className="brand-name">Mimipadel</span>
           </div>
 
           <button
