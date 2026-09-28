@@ -1,12 +1,24 @@
 import { SecondaryMedia } from "../components/PageSideContent.jsx";
 import HeroSlogan from "../components/HeroSlogan.jsx";
-import { homeSecondaryImage } from "../config/media.js";
+import { homeHeroImage, homeSecondaryImage } from "../config/media.js";
 import logoImage from "../assets/mimipadel-logo.png";
 
 export default function WatWeBieden() {
   return (
     <section className="home-page section">
       <div className="home-hero">
+        <div className="home-hero__photo">
+          <div className="ratio-home-hero">
+            {homeHeroImage ? (
+              <img src={homeHeroImage} alt="" className="home-hero__photo-img" />
+            ) : (
+              <div className="media-placeholder-fill">
+                <span>Media volgt</span>
+              </div>
+            )}
+          </div>
+        </div>
+
         <div className="home-hero__logo">
           <img src={logoImage} alt="" className="home-hero__logo-img" />
         </div>
