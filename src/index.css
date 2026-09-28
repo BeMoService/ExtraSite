@@ -1252,11 +1252,17 @@ body {
 .reizen-page__photo-1,
 .reizen-page__photo-2,
 .reizen-page__photo-3,
-.reizen-page__photo-4 {
+.reizen-page__photo-4,
+.reizen-page__photo-5 {
   min-width: 0;
 }
 
-.reizen-page__row-text .page-subtitle {
+.reizen-page__hero-tail {
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+.reizen-page__hero-tail .page-subtitle {
   margin-top: 0;
 }
 
@@ -1283,20 +1289,6 @@ body {
   min-height: 0;
 }
 
-.reizen-page__qr {
-  margin-top: auto;
-  padding-top: 0;
-  display: flex;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.reizen-page__qr .whatsapp-qr {
-  max-width: 100%;
-  margin: 0;
-  gap: 10px;
-}
-
 @media (min-width: 900px) {
   .reizen-page__hero.grid-2 {
     align-items: stretch;
@@ -1304,10 +1296,6 @@ body {
 
   .reizen-page__hero-side {
     height: 100%;
-  }
-
-  .reizen-page__qr .whatsapp-qr__frame {
-    padding: 10px 10px 0;
   }
 }
 

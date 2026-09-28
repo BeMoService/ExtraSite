@@ -1,7 +1,7 @@
-import WhatsAppQr from "../components/WhatsAppQr.jsx";
 import {
   tripHeroImage,
   tripQuaternaryImage,
+  tripQuinaryImage,
   tripSecondaryImage,
   tripTertiaryImage,
 } from "../config/media.js";
@@ -32,8 +32,14 @@ export default function Reizen() {
             </p>
           </div>
 
-          <div className="reizen-page__qr">
-            <WhatsAppQr size={172} />
+          <div className="page-body reizen-page__hero-tail">
+            <h2 className="page-subtitle">Volledig op maat?</h2>
+            <p>
+              Of toch nét even anders? Want op maat betekent bij ons ook écht op maat. Kom je liever samen met je
+              kinderen, komt een andere datum jou net beter uit, reis je met een partner die geen padel speelt of zit
+              je het liefst met je eigen padelteam in één vakantiehuis? Wij denken graag met je mee. Geef je wensen
+              door en wij maken dezelfde dag nog een offerte op maat voor je.
+            </p>
           </div>
         </div>
       </div>
@@ -67,22 +73,15 @@ export default function Reizen() {
         <div className="reizen-page__photo-3">
           <img className="reizen-page__flyer" src={tripTertiaryImage} alt="" loading="lazy" />
         </div>
-
-        <div className="page-body reizen-page__row-text">
-          <h2 className="page-subtitle">Volledig op maat?</h2>
-          <p>
-            Of toch nét even anders? Want op maat betekent bij ons ook écht op maat. Kom je liever samen met je
-            kinderen, komt een andere datum jou net beter uit, reis je met een partner die geen padel speelt of zit je
-            het liefst met je eigen padelteam in één vakantiehuis? Wij denken graag met je mee. Geef je wensen door
-            en wij maken dezelfde dag nog een offerte op maat voor je.
-          </p>
-        </div>
+        <div className="reizen-page__slot--empty" aria-hidden="true" />
       </div>
 
-      <div className="reizen-page__regions grid grid-2">
-        <div className="reizen-page__slot--empty" aria-hidden="true" />
+      <div className="reizen-page__pair grid grid-2">
         <div className="reizen-page__photo-4">
           <img className="reizen-page__flyer" src={tripQuaternaryImage} alt="" loading="lazy" />
+        </div>
+        <div className="reizen-page__photo-5">
+          <img className="reizen-page__flyer" src={tripQuinaryImage} alt="" loading="lazy" />
         </div>
       </div>
     </section>
