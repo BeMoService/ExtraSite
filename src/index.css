@@ -1242,6 +1242,23 @@ body {
   gap: 32px;
 }
 
+.reizen-page__flyer-block {
+  margin-top: 20px;
+}
+
+.reizen-page__hero .reizen-page__photo-1 .reizen-page__flyer-block {
+  margin-top: 8px;
+}
+
+.reizen-page__date {
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.2vw, 1.15rem);
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--olive-dark);
+}
+
 .reizen-page__flyer {
   display: block;
   width: 100%;

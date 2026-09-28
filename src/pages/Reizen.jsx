@@ -6,12 +6,21 @@ import {
   tripTertiaryImage,
 } from "../config/media.js";
 
+function ReizenFlyer({ date, src, className = "" }) {
+  return (
+    <div className={`reizen-page__flyer-block ${className}`.trim()}>
+      <p className="reizen-page__date">{date}</p>
+      <img className="reizen-page__flyer" src={src} alt="" loading="lazy" />
+    </div>
+  );
+}
+
 export default function Reizen() {
   return (
     <section className="section reizen-page">
       <div className="reizen-page__hero grid grid-2">
         <div className="reizen-page__photo-1">
-          <img className="reizen-page__flyer" src={tripHeroImage} alt="" loading="lazy" />
+          <ReizenFlyer date="Zaterdag 17 t/m dinsdag 20 oktober 2026" src={tripHeroImage} />
         </div>
 
         <div className="reizen-page__hero-side">
@@ -65,23 +74,26 @@ export default function Reizen() {
         </div>
 
         <div className="reizen-page__photo-2">
-          <img className="reizen-page__flyer" src={tripSecondaryImage} alt="" loading="lazy" />
+          <ReizenFlyer date="Vrijdag 6 t/m dinsdag 10 november 2026" src={tripSecondaryImage} />
         </div>
       </div>
 
       <div className="reizen-page__row grid grid-2">
         <div className="reizen-page__photo-3">
-          <img className="reizen-page__flyer" src={tripTertiaryImage} alt="" loading="lazy" />
+          <ReizenFlyer date="Zaterdag 28 november t/m dinsdag 1 december 2026" src={tripTertiaryImage} />
         </div>
         <div className="reizen-page__slot--empty" aria-hidden="true" />
       </div>
 
       <div className="reizen-page__pair grid grid-2">
         <div className="reizen-page__photo-4">
-          <img className="reizen-page__flyer" src={tripQuaternaryImage} alt="" loading="lazy" />
+          <ReizenFlyer
+            date="Woensdag 30 december 2026 t/m zondag 3 januari 2027"
+            src={tripQuaternaryImage}
+          />
         </div>
         <div className="reizen-page__photo-5">
-          <img className="reizen-page__flyer" src={tripQuinaryImage} alt="" loading="lazy" />
+          <ReizenFlyer date="Verwachte data 2027" src={tripQuinaryImage} />
         </div>
       </div>
     </section>
