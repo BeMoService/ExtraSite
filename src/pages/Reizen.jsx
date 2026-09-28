@@ -1,8 +1,7 @@
 import MediaFrame from "../components/MediaFrame.jsx";
+import WhatsAppQr from "../components/WhatsAppQr.jsx";
 import { SecondaryMedia } from "../components/PageSideContent.jsx";
 import { tripHeroImage, tripVideo } from "../config/media.js";
-
-const WHATSAPP_URL = "https://wa.me/31626744352";
 
 export default function Reizen() {
   return (
@@ -44,9 +43,7 @@ export default function Reizen() {
           </p>
         </div>
 
-        <a href={WHATSAPP_URL} className="btn btn--spaced" target="_blank" rel="noopener noreferrer">
-          Reserveer via WhatsApp
-        </a>
+        <WhatsAppQr className="btn--spaced" />
 
         <SecondaryMedia src={tripVideo} label="Video volgt" type="video" />
       </div>

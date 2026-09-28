@@ -1,8 +1,7 @@
 import MediaFrame from "../components/MediaFrame.jsx";
 import { SecondaryMedia } from "../components/PageSideContent.jsx";
+import { MIRJAM_PHONE_DISPLAY, MIRJAM_WHATSAPP_URL } from "../config/contact.js";
 import { contactHeroImage, contactSecondaryImage } from "../config/media.js";
-
-const WHATSAPP_URL = "https://wa.me/31626744352";
 const INSTAGRAM_URL = "https://www.instagram.com/mimi.padel/";
 
 export default function Contact() {
@@ -23,12 +22,17 @@ export default function Contact() {
         </div>
 
         <div className="contact-lines">
-          <a href={WHATSAPP_URL} className="contact-line contact-line--link" target="_blank" rel="noopener noreferrer">
+          <a
+            href={MIRJAM_WHATSAPP_URL}
+            className="contact-line contact-line--link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="contact-icon" aria-hidden>
               ☎
             </span>
             <span>
-              Mirjam <strong>06-26744352</strong> (WhatsApp)
+              Mirjam <strong>{MIRJAM_PHONE_DISPLAY}</strong> (WhatsApp)
             </span>
           </a>
 
