@@ -53,28 +53,6 @@ export default function WatWeBieden() {
             <li>Jouw persoonlijke Mimipadel shirt (met jouw eigen naam).</li>
             <li>Welkomstdrankje inclusief welkomstpakket.</li>
           </ul>
-
-          <h3 className="page-subtitle">Persoonlijke touch?</h3>
-          <ul className="feature-list feature-list--plain">
-            <li>
-              Op maat gemaakte excursie? Jij roept, wij draaien. Denk eens aan:
-              <ul className="feature-list feature-list--nested">
-                <li>Wijnproeverij bij de lokale wijnboer met mogelijkheid tot shipping.</li>
-                <li>Een heuse truffeljacht in de bergen van Umbrië.</li>
-                <li>
-                  Kite/windsurfen op het Trasimenomeer. Liever rustiger aan? Ga dan eens suppend het meer over.
-                </li>
-                <li>Een écht Italiaanse kookworkshop.</li>
-              </ul>
-            </li>
-            <li>Verblijven in een villa? Regelen wij voor je.</li>
-            <li>Mee op reis zonder te padellen? Vraag naar de korting.</li>
-            <li>Hulp bij vliegtickets? Wij zijn ondertussen experts.</li>
-            <li>
-              Een eigen groep, met je kids of een heel andere data? Wij zijn bereikbaar via whatsapp.
-            </li>
-            <li>Nog andere wensen? Wij denken graag met je mee.</li>
-          </ul>
         </div>
 
         <a href="#/reizen" className="btn btn--spaced">
