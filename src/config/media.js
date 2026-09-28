@@ -21,10 +21,10 @@ import todaTrainer02 from "../assets/clubs/toda-trainer-02.jpeg";
 import todaTrainer03 from "../assets/clubs/toda-trainer-03.jpeg";
 import perugiaClub01 from "../assets/clubs/perugia/club-01.jpeg";
 
-export const homeHeroImage = homeTopKwartet;
+export const homeHeroImage = null;
 export const homeSecondaryImage = null;
 
-export const tripHeroImage = null;
+export const tripHeroImage = homeTopKwartet;
 export const tripVideo = null;
 
 export const trainingHeroImage = null;
