@@ -4,8 +4,8 @@ import { todaClubPhotos, todaTrainerPhotos } from "../config/media.js";
 export default function TodaSinalunga() {
   return (
     <section className="section page-club">
-      <div className="page-club__intro grid grid-2">
-        <div className="col-image page-club__intro-media">
+      <div className="page-club__top grid grid-2">
+        <div className="col-image page-club__club-photo">
           <PhotoCarousel
             images={todaClubPhotos}
             ariaLabel="TODA clubfoto's"
@@ -14,7 +14,7 @@ export default function TodaSinalunga() {
           />
         </div>
 
-        <div className="col-text page-club__intro-text">
+        <div className="col-text page-club__club-copy">
           <h1 className="page-title">TODA &amp; Sinalunga</h1>
 
           <div className="page-body">
@@ -33,11 +33,14 @@ export default function TodaSinalunga() {
               potje pickleball op de buitenbaan.
             </p>
           </div>
+        </div>
+      </div>
 
-          <div className="secondary-media page-club__trainers">
-            <h2 className="page-subtitle">Trainers</h2>
-            <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" />
-          </div>
+      <div className="page-club__trainers-row grid grid-2">
+        <div className="page-club__trainers-spacer" aria-hidden="true" />
+        <div className="secondary-media page-club__trainers">
+          <h2 className="page-subtitle">Trainers</h2>
+          <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" aspect="4x5" />
         </div>
       </div>
     </section>

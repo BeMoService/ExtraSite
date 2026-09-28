@@ -1386,41 +1386,50 @@ body {
   width: auto;
 }
 
+.page-club__trainers-row {
+  margin-top: 28px;
+}
+
+.page-club__trainers-spacer {
+  display: none;
+}
+
 @media (min-width: 900px) {
-  .page-club__intro.grid-2 {
+  .page-club__top.grid-2 {
     align-items: stretch;
   }
 
-  .page-club__intro-media {
+  .page-club__club-photo {
     display: flex;
     flex-direction: column;
     min-height: 0;
   }
 
-  .page-club__intro-media .photo-carousel {
+  .page-club__club-photo .photo-carousel {
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     min-height: 0;
+    height: 100%;
   }
 
-  .page-club__intro-media .photo-carousel--fill .photo-carousel__frame.ratio-3x2::before {
+  .page-club__club-photo .photo-carousel--fill .photo-carousel__frame.ratio-3x2::before {
     display: none;
   }
 
-  .page-club__intro-media .photo-carousel--fill .photo-carousel__frame {
+  .page-club__club-photo .photo-carousel--fill .photo-carousel__frame {
     flex: 1 1 auto;
-    min-height: 240px;
+    min-height: 200px;
     height: 100%;
   }
 
-  .page-club__intro-media .photo-carousel--fill {
-    height: 100%;
+  .page-club__trainers-spacer {
+    display: block;
   }
-}
 
-.page-club__trainers {
-  margin-top: 4px;
+  .page-club__trainers .photo-carousel__frame.ratio-4x5 {
+    max-width: min(100%, 360px);
+  }
 }
 
 .carousel-dots {
