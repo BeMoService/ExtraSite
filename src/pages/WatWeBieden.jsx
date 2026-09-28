@@ -49,10 +49,9 @@ export default function WatWeBieden() {
               Minimaal 1,5 training per dag en daarna tijd voor vrij spel van Maestro FITP trainers.
             </li>
             <li>Verblijf in een luxe sterrenhotel inclusief ontbijt.</li>
-            <li>Lunch — uithalen.</li>
             <li>Spannende wedstrijden en toernooien.</li>
             <li>Jouw persoonlijke Mimipadel shirt (met jouw eigen naam).</li>
-            <li>Welkomstdrankje inclusief pakketje.</li>
+            <li>Welkomstdrankje inclusief welkomstpakket.</li>
           </ul>
 
           <h3 className="page-subtitle">Persoonlijke touch?</h3>
