@@ -1386,8 +1386,22 @@ body {
   width: auto;
 }
 
-.page-club__trainers-row {
+.page-club__trainers-row,
+.page-club__tenuta-row {
   margin-top: 28px;
+}
+
+.page-club__tenuta-row .page-subtitle {
+  margin-top: 0;
+}
+
+.page-club__tagline {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--olive-dark);
+  line-height: 1.5;
 }
 
 @media (min-width: 900px) {

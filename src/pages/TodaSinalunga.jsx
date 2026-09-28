@@ -1,5 +1,5 @@
 import PhotoCarousel from "../components/PhotoCarousel.jsx";
-import { todaClubPhotos, todaTrainerPhotos } from "../config/media.js";
+import { todaClubPhotos, todaTenutaPhotos, todaTrainerPhotos } from "../config/media.js";
 
 export default function TodaSinalunga() {
   return (
@@ -60,6 +60,28 @@ export default function TodaSinalunga() {
 
         <div className="col-image page-club__trainers">
           <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" aspect="4x5" />
+        </div>
+      </div>
+
+      <div className="page-club__tenuta-row grid grid-2">
+        <div className="col-image page-club__club-photo">
+          <PhotoCarousel
+            images={todaTenutaPhotos}
+            ariaLabel="Tenuta la Fratta"
+            aspect="3x2"
+            fillHeight
+          />
+        </div>
+
+        <div className="col-text page-club__club-copy">
+          <h2 className="page-subtitle">Tenuta la Fratta</h2>
+          <div className="page-body">
+            <p>
+              Tenuta La Fratta zorgt voor een sfeervol verblijf. Ontdek hier de authentieke &ldquo;Cucina&rdquo; en
+              geniet van een verfijnd glas wijn op het terras of aan het buitenzwembad.
+            </p>
+            <p className="page-club__tagline">Un borgo storico nel cuore pi&uacute; autentico della Toscane</p>
+          </div>
         </div>
       </div>
     </section>

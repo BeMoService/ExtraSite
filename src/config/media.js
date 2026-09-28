@@ -25,6 +25,10 @@ import todaClub04 from "../assets/clubs/toda-club-04.jpeg";
 import todaTrainer01 from "../assets/clubs/toda-trainer-01.jpeg";
 import todaTrainer02 from "../assets/clubs/toda-trainer-02.jpeg";
 import todaTrainer03 from "../assets/clubs/toda-trainer-03.jpeg";
+import tenutaLaFratta01 from "../assets/tenuta-la-fratta/tenuta-la-fratta-01.jpeg";
+import tenutaLaFratta02 from "../assets/tenuta-la-fratta/tenuta-la-fratta-02.jpeg";
+import tenutaLaFratta03 from "../assets/tenuta-la-fratta/tenuta-la-fratta-03.jpeg";
+import tenutaLaFratta04 from "../assets/tenuta-la-fratta/tenuta-la-fratta-04.jpeg";
 import perugiaClub01 from "../assets/clubs/perugia/club-01.jpeg";
 
 export const homeHeroImage = null;
@@ -50,6 +54,8 @@ export const clubsSecondaryImage = null;
 export const todaClubPhotos = [todaClub01, todaClub02, todaClub03, todaClub04];
 /** TODA — trainers (carousel onder tekst) */
 export const todaTrainerPhotos = [todaTrainer01, todaTrainer02, todaTrainer03];
+/** TODA — Tenuta la Fratta verblijf */
+export const todaTenutaPhotos = [tenutaLaFratta01, tenutaLaFratta02, tenutaLaFratta03, tenutaLaFratta04];
 
 /** Padel Arena Fastweb Perugia — clubfoto's (carousel links) */
 export const perugiaClubPhotos = [perugiaClub01];
