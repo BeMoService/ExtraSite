@@ -37,8 +37,8 @@ export default function App() {
   const links = [
     { to: "#/", label: "Home" },
     { to: "#/reizen", label: "Onze reizen" },
-    { to: "#/clubs/toda-sinalunga", label: "TODA - Sinalunga" },
-    { to: "#/clubs/padel-arena-perugia", label: "Padel Arena Fastweb - Perugia" },
+    { to: "#/clubs/toda-sinalunga", label: "TODA & Sinalunga" },
+    { to: "#/clubs/padel-arena-perugia", label: "Padel Arena Fastweb & Perugia" },
     { to: "#/mimi", label: "Wie is Mimi" },
     { to: "#/contact", label: "Contactgegevens" },
     { to: "#/voorwaarden", label: "Algemene voorwaarden" },

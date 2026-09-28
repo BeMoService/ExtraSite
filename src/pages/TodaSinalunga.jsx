@@ -5,11 +5,11 @@ export default function TodaSinalunga() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
-        <PhotoCarousel images={todaClubPhotos} ariaLabel="TODA clubfoto's" />
+        <PhotoCarousel images={todaClubPhotos} ariaLabel="TODA clubfoto's" aspect="3x2" />
       </div>
 
       <div className="col-text">
-        <h1 className="page-title">TODA - Sinalunga</h1>
+        <h1 className="page-title">TODA &amp; Sinalunga</h1>
 
         <div className="page-body">
           <p>
@@ -30,7 +30,7 @@ export default function TodaSinalunga() {
 
         <div className="secondary-media">
           <h2 className="page-subtitle">Trainers</h2>
-          <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" />
+          <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" aspect="3x2" />
         </div>
       </div>
     </section>

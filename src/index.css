@@ -1208,6 +1208,7 @@ body {
   z-index: 1;
   transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   touch-action: pan-y;
+  pointer-events: none;
 }
 
 .photo-carousel__slide {
@@ -1355,8 +1356,8 @@ body {
   background: transparent;
   cursor: pointer;
 }
-.carousel-hit--prev { left: 0; width: 50%; }
-.carousel-hit--next { right: 0; width: 50%; }
+.carousel-hit--left { left: 0; width: 50%; }
+.carousel-hit--right { right: 0; width: 50%; }
 
 .carousel-dots {
   display: flex;

@@ -4,7 +4,18 @@ const SWIPE_THRESHOLD_PX = 48;
 const AUTO_ADVANCE_MS = 5000;
 const PAUSE_AFTER_INTERACTION_MS = 10000;
 
-export default function PhotoCarousel({ images = [], label = "Afbeelding volgt", ariaLabel = "Foto's" }) {
+const RATIO_CLASS = {
+  "4x5": "ratio-4x5",
+  "3x2": "ratio-3x2",
+};
+
+export default function PhotoCarousel({
+  images = [],
+  label = "Afbeelding volgt",
+  ariaLabel = "Foto's",
+  aspect = "4x5",
+}) {
+  const ratioClass = RATIO_CLASS[aspect] ?? RATIO_CLASS["4x5"];
   const [index, setIndex] = useState(0);
   const [hoverPaused, setHoverPaused] = useState(false);
   const touchStartX = useRef(null);
@@ -42,7 +53,7 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
 
   if (count === 0) {
     return (
-      <div className="ratio-4x5">
+      <div className={ratioClass}>
         <div className="media-placeholder-fill">
           <span>{label}</span>
         </div>
@@ -78,7 +89,7 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
       onMouseEnter={() => setHoverPaused(true)}
       onMouseLeave={() => setHoverPaused(false)}
     >
-      <div className="ratio-4x5 photo-carousel__frame">
+      <div className={`${ratioClass} photo-carousel__frame`}>
         <div
           className="photo-carousel__track"
           style={{ transform: `translateX(-${index * 100}%)` }}
@@ -96,13 +107,13 @@ export default function PhotoCarousel({ images = [], label = "Afbeelding volgt",
           <>
             <button
               type="button"
-              className="carousel-hit carousel-hit--prev"
+              className="carousel-hit carousel-hit--left"
               aria-label="Vorige foto"
               onClick={() => go(-1)}
             />
             <button
               type="button"
-              className="carousel-hit carousel-hit--next"
+              className="carousel-hit carousel-hit--right"
               aria-label="Volgende foto"
               onClick={() => go(1)}
             />

@@ -5,11 +5,16 @@ export default function PadelArenaPerugia() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
-        <PhotoCarousel images={perugiaClubPhotos} ariaLabel="Padel Arena Fastweb clubfoto's" label="Clubfoto's volgen" />
+        <PhotoCarousel
+          images={perugiaClubPhotos}
+          ariaLabel="Padel Arena Fastweb clubfoto's"
+          label="Clubfoto's volgen"
+          aspect="3x2"
+        />
       </div>
 
       <div className="col-text">
-        <h1 className="page-title">Padel Arena Fastweb - Perugia</h1>
+        <h1 className="page-title">Padel Arena Fastweb &amp; Perugia</h1>
 
         <div className="page-body">
           <p>Een club zoals weinigen ooit gezien hebben.</p>
@@ -48,6 +53,7 @@ export default function PadelArenaPerugia() {
             images={perugiaTrainerPhotos}
             ariaLabel="Padel Arena Fastweb trainers"
             label="Trainerfoto's volgen"
+            aspect="3x2"
           />
         </div>
       </div>
