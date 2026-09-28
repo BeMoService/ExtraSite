@@ -48,19 +48,15 @@ export default function PadelArenaPerugia() {
               beste spelers van het land.
             </p>
           </div>
-        </div>
-      </div>
 
-      <div className="page-club__trainers grid grid-2">
-        <div className="page-club__trainers-spacer" aria-hidden="true" />
-        <div className="secondary-media">
-          <h2 className="page-subtitle">Trainers</h2>
-          <PhotoCarousel
-            images={perugiaTrainerPhotos}
-            ariaLabel="Padel Arena Fastweb trainers"
-            label="Trainerfoto's volgen"
-            aspect="3x2"
-          />
+          <div className="secondary-media page-club__trainers">
+            <h2 className="page-subtitle">Trainers</h2>
+            <PhotoCarousel
+              images={perugiaTrainerPhotos}
+              ariaLabel="Padel Arena Fastweb trainers"
+              label="Trainerfoto's volgen"
+            />
+          </div>
         </div>
       </div>
     </section>

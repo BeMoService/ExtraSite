@@ -33,14 +33,11 @@ export default function TodaSinalunga() {
               potje pickleball op de buitenbaan.
             </p>
           </div>
-        </div>
-      </div>
 
-      <div className="page-club__trainers grid grid-2">
-        <div className="page-club__trainers-spacer" aria-hidden="true" />
-        <div className="secondary-media">
-          <h2 className="page-subtitle">Trainers</h2>
-          <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" aspect="3x2" />
+          <div className="secondary-media page-club__trainers">
+            <h2 className="page-subtitle">Trainers</h2>
+            <PhotoCarousel images={todaTrainerPhotos} ariaLabel="TODA trainers" />
+          </div>
         </div>
       </div>
     </section>

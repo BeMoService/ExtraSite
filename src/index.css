@@ -1414,17 +1414,13 @@ body {
     height: 100%;
   }
 
-  .page-club__trainers.grid-2 {
-    margin-top: 28px;
-  }
-
-  .page-club__trainers-spacer {
-    display: block;
+  .page-club__intro-media .photo-carousel--fill {
+    height: 100%;
   }
 }
 
-.page-club__trainers-spacer {
-  display: none;
+.page-club__trainers {
+  margin-top: 4px;
 }
 
 .carousel-dots {
