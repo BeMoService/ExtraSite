@@ -329,6 +329,11 @@ body {
   margin-top: 20px;
 }
 
+.home-content > .btn--spaced {
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+
 .feature-list--plain li {
   background: transparent;
   border: none;
