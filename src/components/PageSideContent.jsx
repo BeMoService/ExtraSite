@@ -12,12 +12,18 @@ export function PlaceholderBlocks() {
   );
 }
 
-export function SecondaryMedia({ src, label = "Media volgt", type = "image", aspect = "4x5" }) {
+export function SecondaryMedia({
+  src,
+  label = "Media volgt",
+  type = "image",
+  aspect = "4x5",
+  className = "",
+}) {
   const ratioClass =
     aspect === "16x9" ? "ratio-16x9" : aspect === "3x2" ? "ratio-3x2" : "ratio-4x5";
 
   return (
-    <div className="secondary-media">
+    <div className={`secondary-media ${className}`.trim()}>
       {src && type === "video" ? (
         <div className={ratioClass}>
           <video

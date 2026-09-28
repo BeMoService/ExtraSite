@@ -25,6 +25,13 @@ export default function WatWeBieden() {
       </div>
 
       <div className="home-content">
+        <SecondaryMedia
+          src={homeBottomPhoto}
+          aspect="3x2"
+          label="Foto volgt"
+          className="home-content__top-photo"
+        />
+
         <h2 className="page-title">Wat we bieden</h2>
 
         <div className="page-body">
@@ -42,18 +49,6 @@ export default function WatWeBieden() {
             onvergetelijke reis krijgt. Jouw ervaring staat centraal, wij bewegen wel mee. Of dit nou gaat om
             een extra padel les, die ene unieke leuke locale tip of juist het vervoer van en naar een
             wijnproeverij.
-          </p>
-        </div>
-
-        <SecondaryMedia src={homeBottomPhoto} aspect="3x2" label="Foto volgt" />
-
-        <div className="home-bottom-text page-body">
-          <p>
-            Mimipadel staat voor op maat gemaakte reizen. Wil jij graag genieten van &ldquo;la dolce vita&rdquo; in
-            het heuvelachtige Toscane, of juist het bruisende Perugia ontdekken in Umbrië? Wij bieden een vaste
-            basis met vaste padel momenten en uiteraard seizoensgebonden excursies. Jij kiest jouw favoriete
-            bestemming, wordt het Sinalunga of Perugia? Bekijk hier onze reizen en vraag direct via WhatsApp jouw
-            offerte aan.
           </p>
         </div>
 

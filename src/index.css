@@ -325,8 +325,9 @@ body {
   margin-top: 24px;
 }
 
-.home-bottom-text {
-  margin-top: 20px;
+.home-content__top-photo {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .home-content > .btn--spaced {
