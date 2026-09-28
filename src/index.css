@@ -327,11 +327,6 @@ body {
 
 .home-bottom-text {
   margin-top: 20px;
-  min-height: 0;
-}
-
-.home-bottom-text.content-slot--lead:empty {
-  min-height: 8px;
 }
 
 .feature-list--plain li {

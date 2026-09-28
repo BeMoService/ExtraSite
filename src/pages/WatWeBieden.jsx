@@ -43,25 +43,23 @@ export default function WatWeBieden() {
             een extra padel les, die ene unieke leuke locale tip of juist het vervoer van en naar een
             wijnproeverij.
           </p>
+        </div>
 
-          <ul className="feature-list feature-list--plain">
-            <li>
-              Minimaal 1,5 training per dag en daarna tijd voor vrij spel van Maestro FITP trainers.
-            </li>
-            <li>Verblijf in een luxe sterrenhotel inclusief ontbijt.</li>
-            <li>Spannende wedstrijden en toernooien.</li>
-            <li>Jouw persoonlijke Mimipadel shirt (met jouw eigen naam).</li>
-            <li>Welkomstdrankje inclusief welkomstpakket.</li>
-          </ul>
+        <SecondaryMedia src={homeBottomPhoto} aspect="3x2" label="Foto volgt" />
+
+        <div className="home-bottom-text page-body">
+          <p>
+            Mimipadel staat voor op maat gemaakte reizen. Wil jij graag genieten van &ldquo;la dolce vita&rdquo; in
+            het heuvelachtige Toscane, of juist het bruisende Perugia ontdekken in Umbrië? Wij bieden een vaste
+            basis met vaste padel momenten en uiteraard seizoensgebonden excursies. Jij kiest jouw favoriete
+            bestemming, wordt het Sinalunga of Perugia? Bekijk hier onze reizen en vraag direct via WhatsApp jouw
+            offerte aan.
+          </p>
         </div>
 
         <a href="#/reizen" className="btn btn--spaced">
           Bekijk onze reizen
         </a>
-
-        <SecondaryMedia src={homeBottomPhoto} aspect="3x2" label="Foto volgt" />
-
-        <div className="home-bottom-text content-slot content-slot--lead" aria-label="Tekst volgt" />
 
         <SecondaryMedia src={homeSecondaryVideo} type="video" aspect="16x9" label="Video volgt" />
       </div>
