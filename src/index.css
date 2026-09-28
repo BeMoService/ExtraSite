@@ -1390,10 +1390,6 @@ body {
   margin-top: 28px;
 }
 
-.page-club__trainers-spacer {
-  display: none;
-}
-
 @media (min-width: 900px) {
   .page-club__top.grid-2 {
     align-items: stretch;
@@ -1423,8 +1419,12 @@ body {
     height: 100%;
   }
 
-  .page-club__trainers-spacer {
-    display: block;
+  .page-club__trainers-row.grid-2 {
+    align-items: start;
+  }
+
+  .page-club__trainers-copy .page-subtitle {
+    margin-top: 0;
   }
 
   .page-club__trainers .photo-carousel__frame.ratio-4x5 {
