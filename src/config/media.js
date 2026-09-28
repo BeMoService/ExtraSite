@@ -30,6 +30,10 @@ import tenutaLaFratta02 from "../assets/tenuta-la-fratta/tenuta-la-fratta-02.jpe
 import tenutaLaFratta03 from "../assets/tenuta-la-fratta/tenuta-la-fratta-03.jpeg";
 import tenutaLaFratta04 from "../assets/tenuta-la-fratta/tenuta-la-fratta-04.jpeg";
 import perugiaClub01 from "../assets/clubs/perugia/club-01.jpeg";
+import parkHotelPerugia01 from "../assets/perugia-hotel/park-hotel-perugia-01.jpeg";
+import parkHotelPerugia02 from "../assets/perugia-hotel/park-hotel-perugia-02.jpeg";
+import parkHotelPerugia03 from "../assets/perugia-hotel/park-hotel-perugia-03.jpeg";
+import parkHotelPerugia04 from "../assets/perugia-hotel/park-hotel-perugia-04.jpeg";
 
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
@@ -60,6 +64,13 @@ export const todaTenutaPhotos = [tenutaLaFratta01, tenutaLaFratta02, tenutaLaFra
 /** Padel Arena Fastweb Perugia — clubfoto's (carousel links) */
 export const perugiaClubPhotos = [perugiaClub01];
 export const perugiaTrainerPhotos = [];
+/** Perugia — Park Hotel */
+export const perugiaHotelPhotos = [
+  parkHotelPerugia01,
+  parkHotelPerugia02,
+  parkHotelPerugia03,
+  parkHotelPerugia04,
+];
 
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
 export const mimiCoverImage = null;

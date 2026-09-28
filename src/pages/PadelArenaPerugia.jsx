@@ -1,5 +1,5 @@
 import PhotoCarousel from "../components/PhotoCarousel.jsx";
-import { perugiaClubPhotos, perugiaTrainerPhotos } from "../config/media.js";
+import { perugiaClubPhotos, perugiaHotelPhotos, perugiaTrainerPhotos } from "../config/media.js";
 
 export default function PadelArenaPerugia() {
   return (
@@ -61,6 +61,35 @@ export default function PadelArenaPerugia() {
             label="Trainerfoto's volgen"
             aspect="4x5"
           />
+        </div>
+      </div>
+
+      <div className="page-club__tenuta-row grid grid-2">
+        <div className="col-image page-club__club-photo">
+          <PhotoCarousel
+            images={perugiaHotelPhotos}
+            ariaLabel="Park Hotel Perugia"
+            aspect="3x2"
+            fillHeight
+          />
+        </div>
+
+        <div className="col-text page-club__club-copy">
+          <h2 className="page-subtitle">
+            Park hotel Perugia — Una destinazione, infinite possibilit&agrave;
+          </h2>
+          <p className="page-club__tagline page-club__tagline--lead">
+            E&eacute;n bestemming, eindeloze mogelijkheden.
+          </p>
+          <div className="page-body">
+            <p>
+              Ons prachtige (maar liefst) 4 sterren hotel ligt op een paar minuten lopen van de Padelclub. Hier kom
+              je pas echt tot rust na een intensieve work-out. Ontspan in het zwembad of laat je lichaam nog eens flink
+              na zweten in de sauna en stoomcabine. Drink vervolgens eerst een verfrissend drankje aan de bar, zodat
+              jij klaar bent om Perugia in te gaan. Na een goede nachtrust in een comfortabel bed, schuif jij aan voor
+              een uitgebreid internationaal ontbijt met een echte Italiaanse espresso.
+            </p>
+          </div>
         </div>
       </div>
     </section>
