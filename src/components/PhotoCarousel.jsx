@@ -14,8 +14,10 @@ export default function PhotoCarousel({
   label = "Afbeelding volgt",
   ariaLabel = "Foto's",
   aspect = "4x5",
+  fillHeight = false,
 }) {
   const ratioClass = RATIO_CLASS[aspect] ?? RATIO_CLASS["4x5"];
+  const rootClass = fillHeight ? "photo-carousel photo-carousel--fill" : "photo-carousel";
   const [index, setIndex] = useState(0);
   const [hoverPaused, setHoverPaused] = useState(false);
   const touchStartX = useRef(null);
@@ -83,7 +85,7 @@ export default function PhotoCarousel({
 
   return (
     <div
-      className="photo-carousel"
+      className={rootClass}
       aria-roledescription="carousel"
       aria-label={ariaLabel}
       onMouseEnter={() => setHoverPaused(true)}

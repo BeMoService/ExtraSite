@@ -1039,7 +1039,13 @@ body {
   max-width: 100%;
 }
 .ratio-4x5::before { content: ""; display: block; padding-top: 125%; }
-.ratio-4x5 > * { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: var(--radius); }
+.ratio-4x5 > *:not(.carousel-hit) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+}
 
 .ratio-3x2 {
   position: relative;
@@ -1053,7 +1059,7 @@ body {
   padding-top: 66.6667%;
 }
 
-.ratio-3x2 > * {
+.ratio-3x2 > *:not(.carousel-hit) {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -1063,7 +1069,14 @@ body {
 
 .ratio-16x9 { position: relative; width: 100%; }
 .ratio-16x9::before { content: ""; display: block; padding-top: 56.25%; }
-.ratio-16x9 > * { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius); }
+.ratio-16x9 > *:not(.carousel-hit) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
 
 .home-content .secondary-media .ratio-16x9 {
   max-width: 100%;
@@ -1351,13 +1364,68 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: 3;
+  z-index: 4;
+  margin: 0;
+  padding: 0;
   border: none;
   background: transparent;
   cursor: pointer;
 }
-.carousel-hit--left { left: 0; width: 50%; }
-.carousel-hit--right { right: 0; width: 50%; }
+.carousel-hit--left {
+  left: 0;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  width: auto;
+}
+.carousel-hit--right {
+  left: 50%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: auto;
+}
+
+@media (min-width: 900px) {
+  .page-club__intro.grid-2 {
+    align-items: stretch;
+  }
+
+  .page-club__intro-media {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .page-club__intro-media .photo-carousel {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .page-club__intro-media .photo-carousel--fill .photo-carousel__frame.ratio-3x2::before {
+    display: none;
+  }
+
+  .page-club__intro-media .photo-carousel--fill .photo-carousel__frame {
+    flex: 1 1 auto;
+    min-height: 240px;
+    height: 100%;
+  }
+
+  .page-club__trainers.grid-2 {
+    margin-top: 28px;
+  }
+
+  .page-club__trainers-spacer {
+    display: block;
+  }
+}
+
+.page-club__trainers-spacer {
+  display: none;
+}
 
 .carousel-dots {
   display: flex;
