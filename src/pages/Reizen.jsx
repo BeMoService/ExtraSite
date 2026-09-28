@@ -1,6 +1,10 @@
 import WhatsAppQr from "../components/WhatsAppQr.jsx";
-import { SecondaryMedia } from "../components/PageSideContent.jsx";
-import { tripHeroImage, tripSecondaryImage, tripVideo } from "../config/media.js";
+import {
+  tripHeroImage,
+  tripQuaternaryImage,
+  tripSecondaryImage,
+  tripTertiaryImage,
+} from "../config/media.js";
 
 export default function Reizen() {
   return (
@@ -59,7 +63,28 @@ export default function Reizen() {
         </div>
       </div>
 
-      <SecondaryMedia src={tripVideo} label="Video volgt" type="video" />
+      <div className="reizen-page__row grid grid-2">
+        <div className="reizen-page__photo-3">
+          <img className="reizen-page__flyer" src={tripTertiaryImage} alt="" loading="lazy" />
+        </div>
+
+        <div className="page-body reizen-page__row-text">
+          <h2 className="page-subtitle">Volledig op maat?</h2>
+          <p>
+            Of toch nét even anders? Want op maat betekent bij ons ook écht op maat. Kom je liever samen met je
+            kinderen, komt een andere datum jou net beter uit, reis je met een partner die geen padel speelt of zit je
+            het liefst met je eigen padelteam in één vakantiehuis? Wij denken graag met je mee. Geef je wensen door
+            en wij maken dezelfde dag nog een offerte op maat voor je.
+          </p>
+        </div>
+      </div>
+
+      <div className="reizen-page__regions grid grid-2">
+        <div className="reizen-page__slot--empty" aria-hidden="true" />
+        <div className="reizen-page__photo-4">
+          <img className="reizen-page__flyer" src={tripQuaternaryImage} alt="" loading="lazy" />
+        </div>
+      </div>
     </section>
   );
 }
