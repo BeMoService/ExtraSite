@@ -57,8 +57,7 @@ export default function PadelArenaPerugia() {
           <PhotoCarousel
             images={perugiaTrainerPhotos}
             ariaLabel="Padel Arena Fastweb trainers"
-            label="Trainerfoto's volgen"
-            aspect="4x5"
+            aspect="3x2"
           />
         </div>
       </div>

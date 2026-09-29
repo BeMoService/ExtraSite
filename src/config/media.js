@@ -29,9 +29,10 @@ import tenutaLaFratta01 from "../assets/tenuta-la-fratta/tenuta-la-fratta-01.jpe
 import tenutaLaFratta02 from "../assets/tenuta-la-fratta/tenuta-la-fratta-02.jpeg";
 import tenutaLaFratta03 from "../assets/tenuta-la-fratta/tenuta-la-fratta-03.jpeg";
 import tenutaLaFratta04 from "../assets/tenuta-la-fratta/tenuta-la-fratta-04.jpeg";
+import perugiaClub01 from "../assets/clubs/perugia/perugia-club-01.jpeg";
 import perugiaClub02 from "../assets/clubs/perugia/perugia-club-02.jpeg";
 import perugiaClub03 from "../assets/clubs/perugia/perugia-club-03.jpeg";
-import perugiaTrainer01 from "../assets/clubs/perugia/perugia-trainer-01.jpeg";
+import perugiaTrainers from "../assets/clubs/perugia/perugia-trainers.jpeg";
 import parkHotelPerugia01 from "../assets/perugia-hotel/park-hotel-perugia-01.jpeg";
 import parkHotelPerugia02 from "../assets/perugia-hotel/park-hotel-perugia-02.jpeg";
 import parkHotelPerugia03 from "../assets/perugia-hotel/park-hotel-perugia-03.jpeg";
@@ -64,8 +65,8 @@ export const todaTrainerPhotos = [todaTrainer01, todaTrainer02, todaTrainer03];
 export const todaTenutaPhotos = [tenutaLaFratta03, tenutaLaFratta02, tenutaLaFratta01, tenutaLaFratta04];
 
 /** Padel Arena Fastweb Perugia — clubfoto's (carousel links) */
-export const perugiaClubPhotos = [perugiaClub02, perugiaClub03];
-export const perugiaTrainerPhotos = [perugiaTrainer01];
+export const perugiaClubPhotos = [perugiaClub01, perugiaClub02, perugiaClub03];
+export const perugiaTrainerPhotos = [perugiaTrainers];
 /** Perugia — Park Hotel */
 export const perugiaHotelPhotos = [
   parkHotelPerugia03,
