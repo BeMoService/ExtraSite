@@ -15,9 +15,16 @@ export default function PhotoCarousel({
   ariaLabel = "Foto's",
   aspect = "4x5",
   fillHeight = false,
+  imageFit = "cover",
 }) {
   const ratioClass = RATIO_CLASS[aspect] ?? RATIO_CLASS["4x5"];
-  const rootClass = fillHeight ? "photo-carousel photo-carousel--fill" : "photo-carousel";
+  const rootClass = [
+    "photo-carousel",
+    fillHeight ? "photo-carousel--fill" : "",
+    imageFit === "contain" ? "photo-carousel--fit-contain" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
   const [index, setIndex] = useState(0);
   const [hoverPaused, setHoverPaused] = useState(false);
   const touchStartX = useRef(null);
@@ -100,7 +107,7 @@ export default function PhotoCarousel({
         >
           {images.map((src, i) => (
             <div className="photo-carousel__slide" key={src} aria-hidden={i !== index}>
-              <img src={src} alt="" draggable={false} />
+              <img src={src} alt="" draggable={false} style={{ objectFit: imageFit }} />
             </div>
           ))}
         </div>

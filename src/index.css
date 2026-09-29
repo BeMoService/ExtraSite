@@ -1250,6 +1250,11 @@ body {
   -webkit-user-drag: none;
 }
 
+.photo-carousel--fit-contain .photo-carousel__slide img {
+  object-fit: contain;
+  background: rgba(235, 232, 223, 0.85);
+}
+
 .secondary-media .page-subtitle {
   margin-bottom: 12px;
 }
