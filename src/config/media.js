@@ -66,10 +66,10 @@ export const perugiaClubPhotos = [perugiaClub01];
 export const perugiaTrainerPhotos = [];
 /** Perugia — Park Hotel */
 export const perugiaHotelPhotos = [
-  parkHotelPerugia01,
-  parkHotelPerugia02,
   parkHotelPerugia03,
   parkHotelPerugia04,
+  parkHotelPerugia02,
+  parkHotelPerugia01,
 ];
 
 /** Wie is Mimi — omslagfoto bovenaan de pagina */
