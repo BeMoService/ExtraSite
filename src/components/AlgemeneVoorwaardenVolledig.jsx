@@ -4,16 +4,16 @@ export default function AlgemeneVoorwaardenVolledig() {
       <section>
         <h2 className="legal-full__heading">Totstandkoming reisovereenkomst</h2>
         <p>
-          Op het moment dat u via het boekingsformulier, email of middels een whatsapp bericht de voor de
-          boeking benodigde gegevens hebt doorgegeven, beschouwen wij dit als een definitieve boeking. U bent
-          op dat moment akkoord gegaan met onze voorwaarden en ontvangt van ons een bevestiging per email of
-          whatsapp bericht van de boeking. Bij wijzigingen en annuleringen worden onze voorwaarden gehanteerd.
-          Ook een boeking op aanvraag geldt na bevestiging door ons als een definitieve boeking. Het kan
-          voorkomen dat u geen bevestiging krijgt per email. Dit heeft dan te maken met het feit dat uw
-          e-mailadres niet correct is ingevuld bij het maken van de boeking. De boeking is in dit geval wel
-          definitief en bindend. Als u geen bevestiging per email ontvangt binnen 2 uur na het maken van de
-          boeking dient u contact met ons op te nemen. Wij zullen in dit geval de bevestiging nogmaals naar u
-          toezenden. Kijkt u ook altijd voor de zekerheid in uw &lsquo;ongewenste postvak&rsquo;.
+          Op het moment dat u via email of middels een whatsapp bericht de voor de boeking benodigde gegevens
+          hebt doorgegeven, beschouwen wij dit als een definitieve boeking. U bent op dat moment akkoord gegaan
+          met onze voorwaarden en ontvangt van ons een bevestiging per email of whatsapp bericht van de boeking.
+          Bij wijzigingen en annuleringen worden onze voorwaarden gehanteerd. Ook een boeking op aanvraag geldt
+          na bevestiging door ons als een definitieve boeking. Het kan voorkomen dat u geen bevestiging krijgt per
+          email. Dit heeft dan te maken met het feit dat uw e-mailadres niet correct is ingevuld bij het maken van
+          de boeking. De boeking is in dit geval wel definitief en bindend. Als u geen bevestiging per email
+          ontvangt binnen 2 uur na het maken van de boeking dient u contact met ons op te nemen. Wij zullen in dit
+          geval de bevestiging nogmaals naar u toezenden. Kijkt u ook altijd voor de zekerheid in uw
+          &lsquo;ongewenste postvak&rsquo;.
         </p>
       </section>
 
@@ -31,15 +31,11 @@ export default function AlgemeneVoorwaardenVolledig() {
         <p>
           De gepubliceerde reissom geldt per persoon. In de reissom zijn de in deze algemene voorwaarden
           vermelde diensten en voorzieningen inbegrepen. Bij het tot stand komen van de reisovereenkomst dient
-          een bedrag (aanbetaling) binnen 5 dagen te worden voldaan dat gelijk is aan 35% van de totaal
-          overeengekomen reissom. Het restant van de reissom moet uiterlijk 8 weken voor de dag van vertrek in
-          ons bezit te zijn. Bij niet-tijdige betaling kan na sommatie en na het verstrijken van de in de
-          sommatie gestelde termijn de reisovereenkomst door ons met onmiddellijke ingang worden opgezegd. De
-          door u reeds gedane betaling blijft in dit geval eigendom van Mimipadel. Indien de reisovereenkomst
-          binnen 8 weken voor de dag van vertrek tot stand komt, dient de gehele reissom te worden voldaan
-          binnen 5 dagen na boeking. De reiziger die namens medereizigers een reisovereenkomst aangaat is
-          verantwoordelijk voor de betaling van de gehele reissom. Er kunnen kosten in rekening worden gebracht
-          indien de reiziger de boeking wijzigt.
+          een bedrag binnen 5 dagen te worden voldaan dat gelijk is aan de totaal overeengekomen reissom. Bij
+          niet-tijdige betaling kan na sommatie en na het verstrijken van de in de sommatie gestelde termijn de
+          reisovereenkomst door ons met onmiddellijke ingang worden opgezegd. De reiziger die namens medereizigers
+          een reisovereenkomst aangaat is verantwoordelijk voor de betaling van de gehele reissom. Er kunnen
+          kosten in rekening worden gebracht indien de reiziger de boeking wijzigt.
         </p>
       </section>
 
@@ -76,18 +72,11 @@ export default function AlgemeneVoorwaardenVolledig() {
       <section>
         <h2 className="legal-full__heading">Annulering</h2>
         <p>
-          De reiziger is zelf verantwoordelijk voor het afsluiten van een reis- en/of annuleringsverzekering.
-          Indien de reisovereenkomst wordt geannuleerd, worden de volgende kosten in rekening gebracht:
+          De reiziger is zelf verantwoordelijk voor het afsluiten van een reisverzekering voor een padelvakantie
+          en een eventuele annuleringsverzekering. Indien de reisovereenkomst wordt geannuleerd, worden de
+          volgende kosten in rekening gebracht: Tot 6 weken voor vertrek 50% van de reissom en vanaf 6 weken
+          voor vertrek de volledige reissom.
         </p>
-        <ul className="legal-full__list">
-          <li>Tot 8 weken voor vertrek 50% van de reissom;</li>
-          <li>Vanaf 8 weken voor vertrek 60% van de reissom;</li>
-          <li>Vanaf 4 weken voor vertrek 75% van de reissom;</li>
-          <li>Vanaf 2 weken voor vertrek de volledige reissom;</li>
-          <li>
-            Voor een om geboekte reis liggen bovengenoemde percentages t/m 4 weken voor vertrek 10% hoger.
-          </li>
-        </ul>
         <p>
           Wij werken samen met gerenommeerde partners, het kan echter voorkomen dat er problemen ontstaan bij
           het beoogde verblijf/ padelfaciliteit (bv. schade). Mimipadel doet er bij zulke omstandigheden
@@ -96,15 +85,6 @@ export default function AlgemeneVoorwaardenVolledig() {
           opnemen om met elkaar te zoeken naar een passende oplossing. In het geval van overmacht zoals een
           pandemie of soort gelijke situatie waardoor reizen onmogelijk is nemen wij contact met u op om zo
           samen de mogelijkheden te bespreken.
-        </p>
-      </section>
-
-      <section>
-        <h2 className="legal-full__heading">Programma</h2>
-        <p>
-          Tijdens de padelreis krijgt u elke dag (met uitzondering van de dag van aankomst en dag van vertrek)
-          ter plaatse padeltraining van onze enthousiaste en gelicenseerde padelleraren. De exacte
-          trainingsuren zijn onder voorbehoud van weersomstandigheden en beschikbaarheid van de banen.
         </p>
       </section>
 
@@ -120,8 +100,7 @@ export default function AlgemeneVoorwaardenVolledig() {
       <section>
         <h2 className="legal-full__heading">Gekoppelde reisarrangement</h2>
         <p>
-          De door u bij ons geboekte vakantie valt onder de &lsquo;GRA&rsquo; gekoppeld reisarrangement. Wij
-          verkopen geen &lsquo;pakketreizen&rsquo;.
+          De door u bij ons geboekte vakantie valt onder de &lsquo;GRA&rsquo; gekoppeld reisarrangement.
         </p>
       </section>
 

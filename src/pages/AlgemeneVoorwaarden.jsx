@@ -11,7 +11,7 @@ export default function AlgemeneVoorwaarden() {
           Mimipadel. Onze voorwaarden zijn te vinden op onze website. Daarnaast gaan wij ervan uit dat u alle
           voor uw reis relevante informatie op onze website hebt gelezen. Het aanbod van Mimipadel is
           vrijblijvend en kan zo nodig door Mimipadel worden herroepen. Onze voorwaarden zijn toegevoegd bij
-          de bevestiging die u van ons ontvangt na inschrijving.
+          de definitieve bevestiging die u van ons ontvangt.
         </p>
 
         <details className="legal-details">
