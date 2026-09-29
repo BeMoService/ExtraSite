@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <BackgroundShapes />
-      <header className="site-header">
+      <header className={open ? "site-header site-header--drawer-open" : "site-header"}>
         <div className="header-inner container">
           <div className="brand-slot" aria-label="Mimipadel">
             <span className="brand-name">Mimipadel</span>
