@@ -1255,27 +1255,40 @@ body {
   margin-top: 24px;
 }
 
-.reizen-page {
+.reizen-page__layout {
+  align-items: start;
+}
+
+.reizen-page__photos {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 28px;
+  min-width: 0;
+}
+
+.reizen-page__content {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-width: 0;
 }
 
 .reizen-page__flyer-block {
-  margin-top: 20px;
+  margin: 0;
 }
 
-.reizen-page__hero .reizen-page__photo-1 .reizen-page__flyer-block {
-  margin-top: 8px;
+.reizen-page__flyer-block:first-child {
+  margin-top: 0;
 }
 
 .reizen-page__date {
-  margin: 0 0 12px;
+  margin: 0 0 14px;
   font-family: var(--font-display);
-  font-size: clamp(1rem, 2.2vw, 1.15rem);
-  font-weight: 700;
-  line-height: 1.35;
-  color: var(--olive-dark);
+  font-size: clamp(1.15rem, 2.6vw, 1.45rem);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: var(--black);
 }
 
 .reizen-page__flyer {
@@ -1285,62 +1298,22 @@ body {
   border-radius: var(--radius);
 }
 
-.reizen-page__photo-1,
-.reizen-page__photo-2,
-.reizen-page__photo-3,
-.reizen-page__photo-4,
-.reizen-page__photo-5 {
-  min-width: 0;
-}
-
-.reizen-page__hero-tail {
-  margin-top: auto;
-  flex-shrink: 0;
-}
-
-.reizen-page__hero-tail .page-subtitle {
+.reizen-page__block .page-subtitle {
   margin-top: 0;
 }
 
-.reizen-page__slot--empty {
-  display: none;
+.reizen-page__block .page-subtitle + .page-subtitle {
+  margin-top: 1.25rem;
 }
 
 @media (min-width: 900px) {
-  .reizen-page__slot--empty {
-    display: block;
-  }
-}
-
-.reizen-page__hero-side {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  min-width: 0;
-  min-height: 100%;
-}
-
-.reizen-page__hero-copy {
-  flex: 1 1 auto;
-  min-height: 0;
-}
-
-@media (min-width: 900px) {
-  .reizen-page__hero.grid-2 {
-    align-items: stretch;
+  .reizen-page__layout {
+    column-gap: 32px;
   }
 
-  .reizen-page__hero-side {
-    height: 100%;
+  .reizen-page__photos {
+    order: -1;
   }
-}
-
-.reizen-page__regions .page-subtitle {
-  margin-top: 4px;
-}
-
-.reizen-page__regions .page-subtitle:first-child {
-  margin-top: 0;
 }
 
 .whatsapp-qr__title {
