@@ -870,14 +870,13 @@ body {
   min-height: 1px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  padding-right: 12px;
-  transition: padding-right 0.3s ease, justify-content 0.3s ease;
+  justify-content: flex-end;
+  padding-right: 52px;
+  transition: padding-right 0.3s ease;
 }
 
 .site-header--drawer-open .brand-slot {
-  justify-content: flex-end;
-  padding-right: calc(min(78vw, 320px) + 28px);
+  padding-right: calc(min(78vw, 320px) + 14px);
 }
 
 .site-header--drawer-open .hamburger {
