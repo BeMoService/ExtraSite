@@ -65,7 +65,7 @@ export default function Reizen() {
 
         <div className="reizen-page__closing page-body">
           <p>
-            Bekijk hier onze reizen en vraag direct via WhatsApp jouw offerte aan.
+            Bekijk hieronder onze reizen en vraag direct via WhatsApp jouw offerte aan.
           </p>
           <p className="note-text">
             Let op: wij bieden deze reis aan bij een afname van 4 – 12 personen. Voor grotere groepen vragen wij via
