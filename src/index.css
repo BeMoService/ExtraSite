@@ -1456,8 +1456,8 @@ body {
     margin-top: 0;
   }
 
-  .page-club__trainers .photo-carousel__frame.ratio-4x5 {
-    max-width: min(100%, 360px);
+  .page-club__trainers .photo-carousel__frame.ratio-3x2 {
+    max-width: min(100%, 520px);
   }
 }
 
