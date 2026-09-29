@@ -1,7 +1,19 @@
 import { useRef, useState } from "react";
 import MediaFrame from "./MediaFrame.jsx";
 
-export default function VideoPoster({ videoSrc, posterSrc, label = "Video volgt" }) {
+const RATIO_CLASS = {
+  "4x5": "ratio-4x5",
+  "3x2": "ratio-3x2",
+  "16x9": "ratio-16x9",
+};
+
+export default function VideoPoster({
+  videoSrc,
+  posterSrc,
+  label = "Video volgt",
+  aspect = "4x5",
+}) {
+  const ratioClass = RATIO_CLASS[aspect] ?? RATIO_CLASS["4x5"];
   const videoRef = useRef(null);
   const [showCover, setShowCover] = useState(Boolean(posterSrc));
 
@@ -17,7 +29,7 @@ export default function VideoPoster({ videoSrc, posterSrc, label = "Video volgt"
   };
 
   return (
-    <div className="ratio-4x5">
+    <div className={ratioClass}>
       <div className="video-poster">
         <video
           ref={videoRef}

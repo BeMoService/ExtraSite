@@ -1,5 +1,5 @@
-import MediaFrame from "../components/MediaFrame.jsx";
-import { SecondaryMedia } from "../components/PageSideContent.jsx";
+import PhotoCarousel from "../components/PhotoCarousel.jsx";
+import VideoPoster from "../components/VideoPoster.jsx";
 import {
   MIMIPADEL_EMAIL,
   MIMIPADEL_INSTAGRAM_HANDLE,
@@ -7,13 +7,18 @@ import {
   MIRJAM_PHONE_DISPLAY,
   MIRJAM_WHATSAPP_URL,
 } from "../config/contact.js";
-import { contactHeroImage, contactSecondaryImage } from "../config/media.js";
+import { contactPortraitPhotos, contactVideo, contactVideoPoster } from "../config/media.js";
 
 export default function Contact() {
   return (
     <section className="grid grid-2 section">
       <div className="col-image">
-        <MediaFrame src={contactHeroImage} alt="" label="Contact — afbeelding volgt" />
+        <PhotoCarousel
+          images={contactPortraitPhotos}
+          ariaLabel="Contactfoto's"
+          label="Contactfoto's volgen"
+          aspect="4x5"
+        />
       </div>
 
       <div className="col-text">
@@ -61,7 +66,14 @@ export default function Contact() {
           </a>
         </div>
 
-        <SecondaryMedia src={contactSecondaryImage} label="Media volgt" />
+        <div className="secondary-media">
+          <VideoPoster
+            videoSrc={contactVideo}
+            posterSrc={contactVideoPoster}
+            label="Video volgt"
+            aspect="3x2"
+          />
+        </div>
       </div>
     </section>
   );

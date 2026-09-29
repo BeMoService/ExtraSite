@@ -107,7 +107,7 @@ export default function App() {
         <span className="copyright-badge" aria-hidden="true">
           ©
         </span>
-        <span>mimi padel</span>
+        <span>Mimipadel</span>
       </footer>
 
       <CornerLogo key={location.pathname} />

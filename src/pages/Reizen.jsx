@@ -68,8 +68,7 @@ export default function Reizen() {
             Bekijk hieronder onze reizen en vraag direct via WhatsApp jouw offerte aan.
           </p>
           <p className="note-text">
-            Let op: wij bieden deze reis aan bij een afname van 4 – 12 personen. Voor grotere groepen vragen wij via
-            whatsapp contact op te nemen.
+            Let op: Onze reizen gaan definitief door bij minimaal 4 deelnemers.
           </p>
         </div>
       </div>

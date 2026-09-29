@@ -37,6 +37,10 @@ import parkHotelPerugia01 from "../assets/perugia-hotel/park-hotel-perugia-01.jp
 import parkHotelPerugia02 from "../assets/perugia-hotel/park-hotel-perugia-02.jpeg";
 import parkHotelPerugia03 from "../assets/perugia-hotel/park-hotel-perugia-03.jpeg";
 import parkHotelPerugia04 from "../assets/perugia-hotel/park-hotel-perugia-04.jpeg";
+import contactPortrait01 from "../assets/contact/contact-portrait-01.jpeg";
+import contactPortrait02 from "../assets/contact/contact-portrait-02.jpeg";
+import contactVideoPosterImg from "../assets/contact/contact-video-poster.jpeg";
+import contactIntroVideo from "../assets/contact/contact-video.mp4";
 
 export const homeHeroImage = null;
 export const homeSecondaryImage = null;
@@ -85,7 +89,10 @@ export const mimiVideo = mimiIntroVideo;
 export const mimiHeroImage = null;
 export const mimiSecondaryImage = null;
 
-export const contactHeroImage = null;
-export const contactSecondaryImage = null;
+/** Contact — links naast tekst (staand, carrousel) */
+export const contactPortraitPhotos = [contactPortrait01, contactPortrait02];
+/** Contact — onder contactregels: cover + video (liggend) */
+export const contactVideoPoster = contactVideoPosterImg;
+export const contactVideo = contactIntroVideo;
 
 export const termsHeroImage = null;

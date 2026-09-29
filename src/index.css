@@ -1496,7 +1496,6 @@ body[data-page="contact"] .btn {
   color: var(--olive-dark);
   font-size: 0.9rem;
   letter-spacing: 0.04em;
-  text-transform: lowercase;
   background: linear-gradient(180deg, transparent 0%, rgba(61, 68, 38, 0.08) 100%);
 }
 
