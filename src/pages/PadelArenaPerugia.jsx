@@ -11,7 +11,6 @@ export default function PadelArenaPerugia() {
             ariaLabel="Padel Arena Fastweb clubfoto's"
             label="Clubfoto's volgen"
             aspect="3x2"
-            imageFit="contain"
           />
         </div>
 
