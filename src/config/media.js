@@ -59,7 +59,7 @@ export const todaClubPhotos = [todaClub01, todaClub02, todaClub03, todaClub04];
 /** TODA — trainers (carousel onder tekst) */
 export const todaTrainerPhotos = [todaTrainer01, todaTrainer02, todaTrainer03];
 /** TODA — Tenuta la Fratta verblijf */
-export const todaTenutaPhotos = [tenutaLaFratta01, tenutaLaFratta02, tenutaLaFratta03, tenutaLaFratta04];
+export const todaTenutaPhotos = [tenutaLaFratta03, tenutaLaFratta02, tenutaLaFratta01, tenutaLaFratta04];
 
 /** Padel Arena Fastweb Perugia — clubfoto's (carousel links) */
 export const perugiaClubPhotos = [perugiaClub01];
