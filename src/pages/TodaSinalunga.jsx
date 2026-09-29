@@ -73,10 +73,26 @@ export default function TodaSinalunga() {
           <h2 className="page-subtitle">Tenuta la Fratta</h2>
           <div className="page-body">
             <p>
-              Tenuta La Fratta zorgt voor een sfeervol verblijf. Ontdek hier de authentieke &ldquo;Cucina&rdquo; en
-              geniet van een verfijnd glas wijn op het terras of aan het buitenzwembad.
+              Dit oude dorp waar vroeger zo&rsquo;n 40 families samenwoonden is gerenoveerd tot een prachtig
+              kleinschalig hotel, kom hier binnen in de &ldquo;woonkamer&rdquo; en voel je thuis. Buiten scharrelen
+              wat kippen, een ezel en een pony los in de tuin. Vanuit je kamer kijk je uit over weilanden en het
+              terras met zachte loungestoelen. Alle kamers zijn voorzien van een kwalitatief bed en inloopdouche. Loop
+              eens een rondje over dit overweldigende oude terrein, waar nog enorm veel details te zien zijn. Of geniet
+              van een drankje &amp; hapje op &eacute;&eacute;n van de ligbedden aan het ruime zwembad. Voor het
+              avondeten blijf je thuis, steek je het terras over en kom je terecht in een nieuwe ruimte van rust, waar
+              alleen gewerkt wordt met lokale producten, waaronder eigen olijfolie, wijn en vlees. Hier straalt alles
+              rust uit, een plek waar je eigenlijk niet meer weg wilt.
+            </p>
+            <p>
+              Vanaf het hotel ben je in zo&rsquo;n 5 minuten rijden bij de padelclub, rijdt daarna eens de steile weg
+              omhoog Sinalunga in en eindig midden in een pittoresk klein dorpje boven op een berg. Neem plaats op het
+              terras voor een gelato, tussen de lokale &ldquo;oudjes&rdquo; en geniet van het &ldquo;la dolce
+              vita&rdquo;.
             </p>
             <p className="page-club__tagline">Un borgo storico nel cuore pi&uacute; autentico della Toscane</p>
+            <p className="page-club__tagline page-club__tagline--lead">
+              Een historisch dorp in het meest authentieke hart van Toscane.
+            </p>
           </div>
         </div>
       </div>
