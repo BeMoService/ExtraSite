@@ -71,6 +71,10 @@ export default function TodaSinalunga() {
 
         <div className="col-text page-club__club-copy">
           <h2 className="page-subtitle">Tenuta la Fratta</h2>
+          <p className="page-club__tagline">Un borgo storico nel cuore pi&uacute; autentico della Toscane</p>
+          <p className="page-club__tagline page-club__tagline--lead">
+            Een historisch dorp in het meest authentieke hart van Toscane.
+          </p>
           <div className="page-body">
             <p>
               Dit oude dorp waar vroeger zo&rsquo;n 40 families samenwoonden is gerenoveerd tot een prachtig
@@ -88,10 +92,6 @@ export default function TodaSinalunga() {
               omhoog Sinalunga in en eindig midden in een pittoresk klein dorpje boven op een berg. Neem plaats op het
               terras voor een gelato, tussen de lokale &ldquo;oudjes&rdquo; en geniet van het &ldquo;la dolce
               vita&rdquo;.
-            </p>
-            <p className="page-club__tagline">Un borgo storico nel cuore pi&uacute; autentico della Toscane</p>
-            <p className="page-club__tagline page-club__tagline--lead">
-              Een historisch dorp in het meest authentieke hart van Toscane.
             </p>
           </div>
         </div>

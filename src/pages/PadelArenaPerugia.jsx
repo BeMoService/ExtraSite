@@ -33,7 +33,7 @@ export default function PadelArenaPerugia() {
               <li>Bar &amp; buitenbar.</li>
             </ul>
             <p>
-              Maestro trainers die écht met je meekijken, die tijdens het inspelen al doorheen waar jouw krachten en
+              Maestro trainers die écht met je meekijken, die tijdens het inspelen al door heen waar jouw krachten en
               valkuil liggen. Vanuit daar starten jouw lessen. Uiteraard is er na elke les tijd gereserveerd voor vrij
               spel om jouw geleerde technieken toe te passen.
             </p>
